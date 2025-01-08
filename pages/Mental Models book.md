@@ -1,7 +1,7 @@
 type:: [[Book]]
 subtitle:: 30 thinking tools that separate the average from exceptional
 alias::
-subject:: [[Decision Making]] 
+subject:: [[Mental Models]] 
 author:: [[Peter Hollins]] 
 tags::
 

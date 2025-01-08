@@ -1,5 +1,5 @@
 filters:: {"templates" false}
-type:: [[Undefined]]
+type:: [[Propaganda Technique]]
 alias::
 tags::
 

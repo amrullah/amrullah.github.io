@@ -1,4 +1,4 @@
-filters:: {"templates" false}
+filters:: {"templates" false, "readme" false}
 type::
 alias:: portal, Portal, portals, Portals
 tags::

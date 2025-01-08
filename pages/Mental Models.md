@@ -8,3 +8,6 @@ tags::
     - Make sense of the world
     - Interpret information correctly
     - Understand our context
+- # Books
+    - {{query (and (property :type [[Book]]) (property :subject [[Mental Models]]))}}
+      collapsed:: true

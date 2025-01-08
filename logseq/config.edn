@@ -423,4 +423,6 @@
  :feature/enable-journals? false
  :default-home {:page "Portals"}
  :feature/enable-flashcards? false
- :graph/settings {:excluded-pages? false}}
+ :graph/settings {:excluded-pages? false
+ :orphan-pages? true}
+ :graph/forcesettings {:link-dist 80}}
