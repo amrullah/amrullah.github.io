@@ -1,3 +1,3 @@
 type:: [[subject]] 
-alias:: SA
+alias:: SA, architecture
 tags::

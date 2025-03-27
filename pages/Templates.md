@@ -38,7 +38,8 @@ exclude-from-graph-view:: true
   template:: Collection Details
 - filters:: {"templates" false}
   type:: [[Chapter]]
-  alias:: Decision-Making for Speed and Context
+  name:: 
+  alias:: 
   tags::
   template:: Chapter Details
 - filters:: {"templates" false}
@@ -57,5 +58,14 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Propaganda Technique
--
+- filters:: {"templates" false}
+  type:: [[Concept]] 
+  alias::
+  tags::
+  template:: Concept Details
+- filters:: {"templates" false}
+  type:: [[Job Role]]
+  alias::
+  tags::
+  template:: Job Role
 -
