@@ -68,4 +68,10 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Job Role
+- filters:: {"templates" false}
+  type:: [[Internet Resource]] 
+  alias:: 
+  link:: 
+  tags::
+  template:: Internet Resource Details
 -

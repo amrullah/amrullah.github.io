@@ -33,7 +33,6 @@ tags:: Software Architecture
         - A system's static and dynamic structures are ^^closely related^^ to one another. However the two structures are not the same.
             - Consider a simple client/server system with one client facing element that handles all interactions with users. This would appear ^^once^^ as a ^^static^^ structure element, but would appear ^^many times^^ (once per active user) in a ^^dynamic^^ structure model.
     - ## Fundamental System Properties
-      collapsed:: true
         - The fundamental properties of a system manifest themselves in two different ways:
             - ### Externally visible behavior
                 - Tells you ^^what a system does^^ from the standpoint of an ^^external observer^^
@@ -55,7 +54,6 @@ tags:: Software Architecture
                     - How easily can it be used by people who are disabled?
                 - Which of these characteristics are relevant depends on your circumstances and on the concerns and priorities of your [[stakeholders]]
     - ## Principles of Design and Evolution
-      collapsed:: true
         - One of the things that is immediately obvious about a ^^well-structured^^ and ^^maintainable^^ system is that it's implementation is ^^consistent^^ and respects a ^^system-wide^^ set of structuring ^^conventions^^. This allows the system to be more ^^easily understood^^ and encourages ^^extensions^^ to the system to be made in a ^^consistent^^ and ^^logical^^ way, fitting into the overall form of the system.
         - One of the things that is ^^necessary^^ in order to achieve the ^^internal implementation consistency^^ is a ^^clear set of principles^^ to guide the system's ^^design^^ and ^^evolution^^.
         - ### Architectural Principles
