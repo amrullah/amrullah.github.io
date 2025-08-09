@@ -74,4 +74,9 @@ exclude-from-graph-view:: true
   link:: 
   tags::
   template:: Internet Resource Details
+- filters:: {"templates" false}
+  type:: [[course]] 
+  alias::
+  tags::
+  template:: Course Details
 -
