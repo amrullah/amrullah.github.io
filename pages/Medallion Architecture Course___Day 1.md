@@ -1,0 +1,62 @@
+- ((68970928-d90c-48d2-8a58-fa0bb7a30257))
+- The [[Medallion Architecture]] came up as a result of experiments by [[DataBricks]] company and was then adopted by other platforms
+- Operational Data
+    - Any data captured during normal operations of software systems.
+        - It can be a direct result of actions a User takes, or even indirect ones
+    - Examples: Event logs
+    - External Data
+        - Third Party feed
+        - Marketing data set
+- [[Extract-Transform-Load]]  ((68971576-0d1c-453a-aa67-810a00432396))
+    - Extract
+        - fetch the data from internal (operational) and external sources.
+    - Transform
+        - Clean, join some tables, standardize on the data model, roll up to produce a consistent schema (What the BI and the reports expect as the schema)
+    - Load
+        - Store the transformed data in [[Data Warehouse]] to make available for serving (BI, Reporting, ML) in a schema that is conducive for these purposes
+- [[Data Lake]] ((68971dd6-c188-4f06-a696-dbcd5562c05a))
+    - Important characteristics of the storage area that is the bedrock of [[Data Lake]]
+      id:: 68971dc9-c0af-4f8e-aaf3-408b37fc884d
+        - Low cost
+        - Scalable
+    - No schema enforcement at [[Ingestion]] time. So there is maximum flexibility to on-board new data
+    - Cons:
+        - Lot's of data duplication
+          id:: 68bbf2d2-cf7c-43a6-9127-7c44d1a519ab
+        - Ingestion layer + Data Warehouse + ML databases etc.
+- [[Data Lakehouse]] ((68d7e9df-f11e-48a9-bd7b-ca6ffc91d137))
+    - One step above [[Data Lake]], so has these characteristics: ((68971dc9-c0af-4f8e-aaf3-408b37fc884d))
+    - Knobs like [[Data Governance]] and [[Metadata Management]] are key to manage a [[Data Lake]]
+        - [[Metadata Management]] is necessary to keep track of what data is where. Should be able to:
+          collapsed:: true
+            - Track the schema (columns in the table)
+            - Lineage of the data
+        - [[Data Governance]]
+          collapsed:: true
+            - [[Data Lineage]]
+              collapsed:: true
+                - Path that the data takes over a period of time #definition
+                - I should be able to ask, this data that I [[Ingested]] yesterday, where is it now? is it processed fully by [[ETL]]? is it gone into the [[Data Warehouse]]? are you gone into the real-time database?
+                - Crucial for knowing [[ETL]] pipeline failures.
+                - In regulated domains like healthcare, there can be audits, so possessing [[Data Lineage]] has legal implications.
+                - Is also important during the experimentation phase of [[ML]] to figure out the best accuracy that can be derived from a model
+                    - What kind of parameters were used for a particular experiment.
+                    - What kind of pre-processing data went through, before it was given for training
+                    - In hundreds of experiments that were performed, in, let's say, 68th experiment, what kind of data processing was done, which led to good accuracy?
+            - Access Control
+                - The instructor mentioned the example of a VVIP patient admitted to hospital and the access controls around this patient's data. It's even more granular than [[Role Based Access Control]], it's ona
+                -
+    - Unified [[ETL]] engine for [[Batch Job]] and [[Stream Job]]
+        - [[Data Governance]] will be the same, even if the underlying mechanisms are different. Cleaning, Schema enforcement etc.
+        - Instructor's example:
+            - [[Batch Job]] means: An [[ERP]] system dumps a file everyday, and the [[ETL]] system analyses this file and file and checks what new data it has added and updates the [[Data Warehouse]]
+            - [[Stream Job]] is where the data comes in seconds or milliseconds using streaming platforms like [[Apache Kafka]] or [[AWS Kinesis]]
+        - The processed data is written back to the [[Data Lake]] itself. There's no separate [[Data Warehouse]] . And there are concepts like [[Bronze Layer]], [[Silver Layer]] and [[Gold Layer]] . This is in contrast to ((68bbf2d2-cf7c-43a6-9127-7c44d1a519ab))
+    - Combines the characteristics of [[Data Lake]] and [[Data Warehouse]]
+    - Some popular Open Source formats:
+        - [[Delta Lake]]
+        - [[Apache Iceberg]]
+        - [[Apache Hudi]]
+        -
+        -
+-

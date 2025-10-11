@@ -1,5 +1,5 @@
 filters:: {"templates" false}
 type:: [[Software Quality Attribute]] 
 definition::
-alias:: Software Performance, Performance
+alias:: Software Auditability, Auditability
 tags:: Software Architecture
