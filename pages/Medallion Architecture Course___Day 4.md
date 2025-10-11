@@ -33,7 +33,7 @@
     - [[Unity Catalog]]
         - Comparitively new concept introduced by [[DataBricks]]
         - Cloud-first
-        - Goal: Unified governance the data and AI assets, [[Hive Metastore]] was focused only on data
+        - Goal: Unified governance the data and [[AI]] assets, [[Hive Metastore]] was focused only on data
             - Even outside the [[DataBricks]], could even be of data from an external cloud!
         - Acts as Control Plane
             - (json and parquet files act as Data Plane)

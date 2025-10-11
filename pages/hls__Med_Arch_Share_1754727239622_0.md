@@ -216,3 +216,8 @@ file-path:: ../assets/Med_Arch_Share_1754727239622_0.pdf
   hl-page:: 93
   hl-color:: yellow
   id:: 68e550ca-ffd8-4a53-9cb6-2ac960bb2f7e
+- This
+  ls-type:: annotation
+  hl-page:: 80
+  hl-color:: yellow
+  id:: 68ea90d4-3057-4994-b1f9-acf8619ed37c

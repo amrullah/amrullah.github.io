@@ -16,3 +16,4 @@ description::
 - ![impact_of_oo_cockburn_1993.pdf](../assets/impact_of_oo_cockburn_1993_1757148917106_0.pdf)
 - ![TDD How to Guide 26-07-21.pdf](../assets/TDD_How_to_Guide_26-07-21_1759855123467_0.pdf)
 - ![The Accidental CTO Book.pdf](../assets/The_Accidental_CTO_Book_1759855361133_0.pdf)
+-

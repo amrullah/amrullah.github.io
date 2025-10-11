@@ -998,5 +998,22 @@
                                    :height 221.06250000000003}),
                           :page 93},
                :content {:text "One-step Delta"},
+               :properties {:color "yellow"}}
+              {:id #uuid "68ea90d4-3057-4994-b1f9-acf8619ed37c",
+               :page 80,
+               :position {:bounding {:x1 187.3046875,
+                                     :y1 80.2265625,
+                                     :x2 211.93267822265625,
+                                     :y2 95.7265625,
+                                     :width 551,
+                                     :height 309.9375},
+                          :rects ({:x1 187.3046875,
+                                   :y1 80.2265625,
+                                   :x2 211.93267822265625,
+                                   :y2 95.7265625,
+                                   :width 551,
+                                   :height 309.9375}),
+                          :page 80},
+               :content {:text "This"},
                :properties {:color "yellow"}}],
- :extra {:page 99}}
+ :extra {:page 71}}
