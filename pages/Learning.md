@@ -1,7 +1,7 @@
 filters:: {"templates" false}
 type:: [[subject]]
 significance::
-alias:: learned
+alias:: learned, learn
 tags::
 
 -

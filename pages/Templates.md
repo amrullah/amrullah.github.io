@@ -79,4 +79,9 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Course Details
+- filters:: {"templates" false}
+  type:: [[Learning Technique]]
+  alias:: 
+  tags:: 
+  template:: Learning Technique Details
 -
