@@ -6,8 +6,8 @@ tags::
 
 - # Key Ideas of This Chapter
     - There are two major pathways the brain uses to store information in [[LTM]] as mentioned below. Each pathway stores it's information separately in [[LTM]] in the [[neocortex]]
-        - [[Declarative pathway]]
-        - [[Procedural Pathway]]
+        - [[Declarative Learning System]]
+        - [[Procedural Learning System]]
     - The [[declarative pathway]] is (mostly) conscious and fast to learn and store information.
     - The [[procedural pathway]] is non-conscious and slow to learn and store information.
     - Once information is [[learned]], the [[procedural system]] can put it to use more rapidly than the [[declarative system]]. But [[procedural learning]] is much less flexible.

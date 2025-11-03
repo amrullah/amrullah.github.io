@@ -9,5 +9,5 @@ tags:: Retrieval Practice
 - Is a better alternative to other approaches like:
     - rereading
     - underlining or highlighting
-    - concept mapping
+    - [[Concept]] mapping
 - There is more stuff in the "Jot recall" section in the last page of [[Uncommon Sense Teaching/Chapter 1]] that I didn't study. Need to revisit it.

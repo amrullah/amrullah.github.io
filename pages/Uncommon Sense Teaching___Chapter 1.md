@@ -6,7 +6,7 @@ tags::
 
 -
 - # Key Ideas of this Chapter
-    - [[Learning]] involves connecting, strengthening and extending sets of neural links in the [[Long Term Memory]]. It is referred to in this book as [[Learn it, link it]]
+    - [[Learning]] involves connecting, strengthening and extending sets of [[neural]] links in the [[Long Term Memory]]. It is referred to in this [[Book]] as [[Learn it, link it]]
     - The strengthening of connections between links as a student practices is known as [[Hebbian Learning]]
     - There are many types of memory with different purposes. Two of the most important types of Memory for classroom [[Learning]] are [[Working Memory]] and [[long-term memory]].
         - ^^Information in [[WM]] can fade away within seconds^^.
@@ -18,7 +18,7 @@ tags::
     - ## [[Neuron]]
         - Diagram:
           collapsed:: true
-            - ![Neural Connections](..assets/uncommon_sense_learning_illustrations/Fig_2_pg_3_building_memory.png)
+            - ![Neural Connections](..assets/uncommon_sense_learning_illustrations/Fig_2_pg_3_building_memory.png){:height 1360, :width 840}
             -
         - Biological cell, fundamental building block of our [[Brain]] . Each person has around 86 billions of them.
         - Whenever you learn a new fact, [[Concept]] or procedure, you are making new connections between small sets of [[Neurons]]
@@ -38,7 +38,6 @@ tags::
     - ## Process: #[[Long Term Memory]]
         - Diagram
           id:: 68f63820-cd41-4f3f-b889-9bcefb5f90a3
-          collapsed:: true
             - ![Neural Connections](..assets/uncommon_sense_learning_illustrations/Fig_3_pg_4_learnt_it_link_it.png)
         - When a student first starts to learn something, [[Neurons]] begin to *find* another and make *connect*ions.
             - This is the **Learn it** phase.
@@ -72,7 +71,11 @@ tags::
                     - Even in my [[personal experience]], in 12th Boards exam, I was not able to answer a question from Phenols section in Organic Chemistry. That was the only part that I hadn't repetitively practiced well and had relied on last minute glancing.
                 - Students often can't tell whether they have something in their [[LTM]] or in [[WM]]
     - ## [[Retrieval Practice]]
+        - Diagram
+          collapsed:: true
+            - ![Retrieval Practice](..assets/uncommon_sense_learning_illustrations/Fig_6_pg_9_buildding_memory.png)
         - Getting information in [[LTM]] can be difficult. However [[retrieval practice]] is one of the best techniques for strengthening new information in [[LTM]].
             - Refer: ((68f61743-3b29-4d07-81fc-131c6a85c5b4))
         - Good Examples of [[retrieval practice]] include using flash cards or merely looking away from page to see if you can retrieve the key idea or ideas on the page.
         - It is far from simple mindless memorization, it also builds conceptual understanding. It is about *drawing ideas* you have learnt, *from your own mind*, rather than simply looking at the answer.
+        - [[Recall]] is one of the simplest types of [[Retrieval Practice]]
