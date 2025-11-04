@@ -57,6 +57,25 @@
         - [[Delta Lake]]
         - [[Apache Iceberg]]
         - [[Apache Hudi]]
-        -
-        -
+    - [[Delta Lake]] ((69083455-f9be-49c6-8337-2fe8b163634d))
+        - Common Use cases:
+            - Modernizing [[Data Lake]]s
+            - Data Warehousing
+            - ML/Data Science
+            - Streaming Data processing
+            - Data Engineering
+            - [[BI]]
+        - Key Features ((69083506-7355-4211-b5bb-b100741eca33))
+            - ACID Transactions
+            - Metadata - Scalable
+            - Time Travel
+            - Unified Batch/Streaming
+            - [[Schema Evolution]]
+            - [[Audit]]
+            - Open Source
+            - [[Performance]]
+            - Ease of use
+- [[Parquet]] files ((6908358c-104a-4d31-9168-74679dc050b9))
+    -
+    -
 -

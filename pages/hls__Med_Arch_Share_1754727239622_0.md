@@ -221,3 +221,18 @@ file-path:: ../assets/Med_Arch_Share_1754727239622_0.pdf
   hl-page:: 80
   hl-color:: yellow
   id:: 68ea90d4-3057-4994-b1f9-acf8619ed37c
+- Delta lake
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 69083455-f9be-49c6-8337-2fe8b163634d
+- Key features
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 69083506-7355-4211-b5bb-b100741eca33
+- Parquet
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: yellow
+  id:: 6908358c-104a-4d31-9168-74679dc050b9

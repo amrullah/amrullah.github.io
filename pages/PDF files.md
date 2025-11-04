@@ -16,4 +16,6 @@ description::
 - ![impact_of_oo_cockburn_1993.pdf](../assets/impact_of_oo_cockburn_1993_1757148917106_0.pdf)
 - ![TDD How to Guide 26-07-21.pdf](../assets/TDD_How_to_Guide_26-07-21_1759855123467_0.pdf)
 - ![The Accidental CTO Book.pdf](../assets/The_Accidental_CTO_Book_1759855361133_0.pdf)
+- ![big-book-of-data-engineering-3rd-edition-1-27-2025.pdf](../assets/big-book-of-data-engineering-3rd-edition-1-27-2025_1762228223213_0.pdf)
+- ![Understanding_ETL_Updated-edition.pdf](../assets/Understanding_ETL_Updated-edition_1762228233120_0.pdf)
 -
