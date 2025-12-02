@@ -266,7 +266,12 @@
  ;; input "{{poem red,blue}}"
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
- :macros {}
+ :macros {
+ 	:evalpage "<button class='kit eval' data-kit='evalpage'>► Evaluate code of open code-blocks</button>"
+		:evalparent "<button class='kit eval' data-kit='evalparent'>► Evaluate code of parent block</button>"
+		:runpage "<button class='kit run' data-kit='runpage' data-page-name='$1'>► Run code of page $1</button>"
+		:togglemsg "<button class='kit' data-kit='togglemsg'>► Toggle messages</button>"
+ }
 
  ;; Configure the default expansion level for linked references.
  ;; For example, consider the following block hierarchy:
