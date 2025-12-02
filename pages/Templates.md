@@ -86,4 +86,10 @@ exclude-from-graph-view:: true
   template:: Learning Technique Details
 - ![ ](..assets/uncommon_sense_learning_illustrations/ .png)
   template:: Uncommon Sense Teaching image
+- filters:: {"templates" false}
+  type:: [[Discipline]]
+  alias:: 
+  tags:: 
+  description::
+  template:: Discipline Details
 -

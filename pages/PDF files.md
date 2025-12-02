@@ -19,4 +19,6 @@ description::
 - ![The Accidental CTO Book.pdf](../assets/The_Accidental_CTO_Book_1759855361133_0.pdf)
 - ![big-book-of-data-engineering-3rd-edition-1-27-2025.pdf](../assets/big-book-of-data-engineering-3rd-edition-1-27-2025_1762228223213_0.pdf)
 - ![Understanding_ETL_Updated-edition.pdf](../assets/Understanding_ETL_Updated-edition_1762228233120_0.pdf)
+- ![80K_HOURS_final.pdf](../assets/80K_HOURS_final_1764338282672_0.pdf)
+- ![the-business-analysis-standard.pdf](../assets/the-business-analysis-standard_1764673351368_0.pdf)
 -

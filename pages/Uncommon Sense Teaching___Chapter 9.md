@@ -7,7 +7,7 @@ tags::
 - # Key Ideas of This [[Chapter]]
     - The two primary forms of online teaching are synchronous (right now) and asynchronous (any time).
     - It's best for students to both see and hear the material they are [[Learning]] (multimedia theory).
-    - Students are lost when they first start an online [[course]]. Make a short video to help them form a cognitive map that allows them to navigate the site.
+    - Students are lost when they first start an online course. Make a short video to help them form a cognitive map that allows them to navigate the site.
     - Use email to reinforce and supplement what you include in LMS. Reach out to disengaged students to try to bring them on board.
     - Pay attention to the quality of your audio. A good microphone is worthwhile here. Watch the lighting and positioning of the camera too.
     - A key to making good asynchronous materials is creating videos that allow your presence as an instructor to shine.
