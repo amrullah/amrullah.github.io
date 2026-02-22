@@ -7,6 +7,7 @@ description::
 - ![swebok-v4-2.pdf](../assets/swebok-v4-2_1736317298817_0.pdf)
 - ![Mastering_C23.pdf](../assets/Mastering_C23_1736660725615_0.pdf)
 - ![LinuxLL_Book1_Introduction_to_x86_64_Architecture.pdf](../assets/LinuxLL_Book1_Introduction_to_x86_64_Architecture_1762779882190_0.pdf)
+- ![a_history_of_assembly_and_cpu_arch.pdf](../assets/a_history_of_assembly_and_cpu_arch_1765349476158_0.pdf)
 - ![Architectural Metapatterns.pdf](../assets/Architectural_Metapatterns_1736754301811_0.pdf)
 - ![Distributed_Systems_4-230409.pdf](../assets/Distributed_Systems_4-230409_1736756552210_0.pdf)
 - ![azure-well-architected-framework.pdf](../assets/azure-well-architected-framework_1742145427648_0.pdf)
@@ -14,6 +15,7 @@ description::
 - ![Thinking Recursively by Eric S Roberts.pdf](../assets/Thinking_Recursively_by_Eric_S_Roberts_1751291186372_0.pdf)
 - ![Product Management-Masterclass-OnePager.pdf](../assets/Product_Management-Masterclass-OnePager_1754390229729_0.pdf)
 - ![Med_Arch_Share.pdf](../assets/Med_Arch_Share_1754727239622_0.pdf)
+- ![Book-5Kimball_The-Data-Warehouse-Toolkit-3rd-Edition-5.pdf](../assets/Book-5Kimball_The-Data-Warehouse-Toolkit-3rd-Edition-5_1766142345083_0.pdf)
 - ![impact_of_oo_cockburn_1993.pdf](../assets/impact_of_oo_cockburn_1993_1757148917106_0.pdf)
 - ![TDD How to Guide 26-07-21.pdf](../assets/TDD_How_to_Guide_26-07-21_1759855123467_0.pdf)
 - ![The Accidental CTO Book.pdf](../assets/The_Accidental_CTO_Book_1759855361133_0.pdf)
@@ -21,4 +23,5 @@ description::
 - ![Understanding_ETL_Updated-edition.pdf](../assets/Understanding_ETL_Updated-edition_1762228233120_0.pdf)
 - ![80K_HOURS_final.pdf](../assets/80K_HOURS_final_1764338282672_0.pdf)
 - ![the-business-analysis-standard.pdf](../assets/the-business-analysis-standard_1764673351368_0.pdf)
+- ![Refactoring UI by Steve Schoger, Adam Wathan.pdf](../assets/Refactoring_UI_by_Steve_Schoger,_Adam_Wathan_1765910954662_0.pdf)
 -

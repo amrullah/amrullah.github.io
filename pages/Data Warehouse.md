@@ -1,6 +1,6 @@
 filters:: {"templates" false}
-type:: [[Concept]] 
-alias::
+type:: [[Database Types]] 
+alias:: DW
 tags:: Data Engineering, Data Architecture
 
 - [[Medallion Architecture Course/Day 1]]

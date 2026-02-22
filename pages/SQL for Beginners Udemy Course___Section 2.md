@@ -1,0 +1,54 @@
+# What is Database and SQL
+    - A [[Database]] is an organized [[Collection]] of ^^structured data^^
+    - A [[Database Management System]] is a software system used to create and manage [[databases]]
+    - [[SQL]] is a programming language used by [[DBMS]] to define, store, query and manipulate data
+    - ## Types of DBMS
+        - [[Relational Databases]] (RDBMS)
+            - Oracle, MySQL, PostgreSQL
+        - [[Data Warehouse]]
+            - Teradata, Exadata, [[Snowflake]], Synapse, RedShift, BigQuery
+        - [[NoSQL Databases]]
+            - Cassandra, DynamoDB
+        - [[Document Databases]]
+            - MongoDB, Cosmos DB
+        - [[Graph Databases]]
+            - Neo4j, Neptune
+        - [[Bigdata Systems]]
+            - Spark, Hadoop
+    - ## ANSI [[SQL]] Standard
+        - [[SQL-86]]
+            - First Standard by ANSI
+        - [[SQL-89]]
+            - Minor Revision
+        - [[SQL-92]]
+            - Matured with Major Revision
+        - [[SQL-99]]
+            - New features such as Regex, recursion and complex types
+        - [[SQL-2003]]
+            - Added XML features
+        - Many Revisions
+            - Many minor revisions for advanced capabilities
+        - [[SQL-2023]]
+            - Added JSON features
+    - ## Which [[SQL]] standard in this course?
+        - [[Bigdata Systems]]
+            - Mostly use [[SQL-99]] standard and this one will be used in this [[course]]
+            - Also use some [[SQL-2023]] features
+- [[DataBricks]] Free account
+    - amrullah.zunzunia@gmail.com
+    - https://dbc-18992a60-0aae.cloud.databricks.com/browse?o=7474643767750421
+    - In Workspace screen
+        - I imported [SQL Essentials.dbc](../assets/resources/notebooks/SQL Essentials.dbc)
+    - In Catalog screen
+        - renamed Workspace folder into dev folder
+            - Each catalog refers to an environment (dev, staging, production)
+        - renamed "default" [[Database]] as "scholarnest" within dev folder
+        - Within "scholarnest" -> Create -> Volume
+            - Volume is just a root directory that has all your data
+            - Created a managed volume with [[name]] "sql_data"
+                - Uploaded [diamonds.json](../assets/resources/sql_data/diamonds.json)
+                - created a `club`, `corp` and `dvdrental` folders in `/Volumes/dev/scholarnest/sql_data/` volume
+                    - loaded files from [club](../assets/resources/sql_data/club) [corp](../assets/resources/sql_data/corp) and [dvdrental](../assets/resources/sql_data/dvdrental) into respective folders
+        - Then ran the [01-SQL Examples.sql](../assets/resources/notebooks/Completed Chapters/CH2/01-SQL Examples.sql) in Workspace -> [[SQL]] Essentials folder -> CH2 etc.
+        -
+-

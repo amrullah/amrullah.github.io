@@ -26,7 +26,7 @@ tags::
 - # Where is [[Working Memory]] in the brain?
     - Diagram:
       collapsed:: true
-        - ![Working Memory](..assets/uncommon_sense_learning_illustrations/Fig_7_pg_18_working_memory.png)
+        - ![Working Memory](..assets/uncommon_sense_learning_illustrations/Fig_7_pg_18_working_memory.png){:height 672, :width 818}
         -
     - The *Central Executive* keeps a piece of information in mind by tossing it and reverberating it between the Focus of Attention, seeing and hearing networks and itself.
         - This roundabout movement keeps the thoughts alive and is also why one can only hold so much information in their minds at once.

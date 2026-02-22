@@ -90,4 +90,9 @@ exclude-from-graph-view:: true
   tags:: 
   description::
   template:: Discipline Details
+- filters:: {"templates" false}
+  type:: [[elearning website]] 
+  alias::
+  tags::
+  template:: E-learning website details
 -

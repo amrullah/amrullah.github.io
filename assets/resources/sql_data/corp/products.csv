@@ -1,0 +1,16 @@
+product_id,product_name,product_cost,qty_available,qty_sold,product_category
+1,Shampoo,350,1045,830,Hair Care
+2,Soap,80,980,495,Body Care
+3,Biscuit,60,1088,1100,Food
+4,Noodles,120,420,88,Food
+5,Toothbrush,30,660,230,Body Care
+6,Facewash,100,900,650,Body Care
+7,Hair Oil,150,650,965,Hair Care
+8,Deodrant,100,550,750,Body Care
+9,Hair Gel,200,752,230,Hair Care
+10,Rice,130,1500,2315,Food
+11,Pulses,80,1320,1005,Food
+12,Spices,60,1050,1050,Food
+13,Butter,50,530,500,Food
+14,Cold Drink,35,800,645,Beverage
+15,Juices,50,675,500,Beverage

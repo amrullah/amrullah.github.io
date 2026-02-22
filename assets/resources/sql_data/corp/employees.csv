@@ -1,0 +1,16 @@
+emp_name,emp_id,emp_dept,emp_salary,emp_yearsinorg,emp_age
+Shaun,001L,Logistics,53000,2,25
+Rob,001S,Sales,68000,3,28
+Lisa,002L,Logistics,45000,1,24
+Prateek,001M,Marketing,75000,3,27
+Priya,001T,Operations,83000,4,27
+Tanya,002M,Marketing,35000,1,24
+Rita,003L,Logistics,50000,1,24
+Shaily,001A,Admin,105000,7,33
+Mark,002S,Sales,65000,3,30
+Abhay,003S,Sales,65000,3,29
+Abdul,002A,Admin,95000,2,31
+Rizwan,003M,Marketing,80000,4,32
+Laila,002T,Operations,73000,5,33
+Sam,003A,Admin,89000,6,35
+John,003T,Operations,48000,2,26
