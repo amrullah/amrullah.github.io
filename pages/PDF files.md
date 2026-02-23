@@ -24,4 +24,7 @@ description::
 - ![80K_HOURS_final.pdf](../assets/80K_HOURS_final_1764338282672_0.pdf)
 - ![the-business-analysis-standard.pdf](../assets/the-business-analysis-standard_1764673351368_0.pdf)
 - ![Refactoring UI by Steve Schoger, Adam Wathan.pdf](../assets/Refactoring_UI_by_Steve_Schoger,_Adam_Wathan_1765910954662_0.pdf)
--
+- ![gfs-sosp2003.pdf](../assets/gfs-sosp2003_1771756024916_0.pdf) (Google File System)
+  id:: 6941a9ab-93cd-476c-8808-37c2fa2b1043
+- ![mapreduce-osdi04.pdf](../assets/mapreduce-osdi04_1771756086270_0.pdf) (Map Reduce)
+  id:: 699ad9fb-aba6-4458-a79f-69ef793fb674

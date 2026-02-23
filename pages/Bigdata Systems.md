@@ -1,6 +1,6 @@
 filters:: {"templates" false}
 type:: [[Database Types]] 
-alias:: 
+alias:: Big Data, Big-data
 tags::
 
 -
