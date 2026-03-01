@@ -15,7 +15,7 @@
             - Neo4j, Neptune
         - [[Bigdata Systems]]
             - Spark, Hadoop
-    - ## ANSI [[SQL]] Standard
+    - ## [[ANSI SQL]] Standard
         - [[SQL-86]]
             - First Standard by ANSI
         - [[SQL-89]]

@@ -95,4 +95,9 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: E-learning website details
+- filters:: {"templates" false}
+  type:: [[Programming Language]] 
+  alias::
+  tags::
+  template:: Programming Language Details
 -

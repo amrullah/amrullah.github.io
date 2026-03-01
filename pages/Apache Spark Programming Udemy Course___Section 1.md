@@ -22,13 +22,11 @@
     - Was designed in layers
         - Core Platform layer composed of 3 layers:
             - YARN - Cluster Resource Manager (also called Cluster Operating System)
-              collapsed:: true
                 - Most critical, because:
                     - Simplification/Abstraction over of a cluster's collective resources ([[CPU]], [[RAM]], storage)
                 - ![yarn_intro.png](../assets/yarn_intro_1771754000459_0.png)
                     - Each Application on YARN runs inside a different Application Master Container
             - HDFS - Distributed Storage
-              collapsed:: true
                 - ![hdfs_intro.png](../assets/hdfs_intro_1771754499569_0.png)
                 - Has Two main components:
                     - NN - [[Name]] Node
@@ -43,7 +41,6 @@
                         - File Blocks, Block IDs, Block sequence, Block Location
             - Map/Reduce - Distributed Computing
                 - Map Reduce Programming Model
-                  collapsed:: true
                     - The instructor introduces a problem of counting the number of lines in a 20 TB csv file
                         - This may lead to hours upon hours (given you can even find a machine with that big [[RAM]] in first place)
                         - Key Challenges:
@@ -71,7 +68,6 @@
                     - Hadoop Map Reduce Framework implements this model
                         - YARN manages the resource allocation
                         - HDFS manages the data blocks
-                        -
                 - Papers:
                     - ((6941a9ab-93cd-476c-8808-37c2fa2b1043))
                     - ((699ad9fb-aba6-4458-a79f-69ef793fb674))
