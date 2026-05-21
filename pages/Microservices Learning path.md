@@ -9,7 +9,7 @@ tags:: Software Architecture, Microservices, System Design
   
   1️⃣ **What Are Microservices?**
 - Monolithic vs Microservices Architecture
-- Pros: Scalability, Fault Tolerance, Independent Deployment
+- Pros: Scalability, [[Fault Tolerance]] , Independent Deployment
 - Cons: Distributed Complexity, Data Consistency, Testing
   
   2️⃣ **Microservices Architecture & Design Principles**
