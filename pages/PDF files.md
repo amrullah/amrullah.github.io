@@ -20,6 +20,7 @@ description::
 - ![impact_of_oo_cockburn_1993.pdf](../assets/impact_of_oo_cockburn_1993_1757148917106_0.pdf)
 - ![TDD How to Guide 26-07-21.pdf](../assets/TDD_How_to_Guide_26-07-21_1759855123467_0.pdf)
 - ![The Accidental CTO Book.pdf](../assets/The_Accidental_CTO_Book_1759855361133_0.pdf)
+- ![Staff_Engineer_leadership.pdf](../assets/Staff_Engineer_leadership_1780227449047_0.pdf)
 - ![big-book-of-data-engineering-3rd-edition-1-27-2025.pdf](../assets/big-book-of-data-engineering-3rd-edition-1-27-2025_1762228223213_0.pdf)
 - ![Understanding_ETL_Updated-edition.pdf](../assets/Understanding_ETL_Updated-edition_1762228233120_0.pdf)
 - ![80K_HOURS_final.pdf](../assets/80K_HOURS_final_1764338282672_0.pdf)
@@ -29,3 +30,8 @@ description::
   id:: 6941a9ab-93cd-476c-8808-37c2fa2b1043
 - ![mapreduce-osdi04.pdf](../assets/mapreduce-osdi04_1771756086270_0.pdf) (Map Reduce)
   id:: 699ad9fb-aba6-4458-a79f-69ef793fb674
+- ![broken_window_theory_tech_debt.pdf](../assets/broken_window_theory_tech_debt_1779637348136_0.pdf)
+- ![mythical-man-month.pdf](../assets/mythical-man-month_1780293291567_0.pdf)
+- ![The Software Engineers Guidebook_v1.08.pdf](../assets/The_Software_Engineers_Guidebook_v1.08_1780578941135_0.pdf)
+- ![Laws of Software Engineering.pdf](../assets/Laws_of_Software_Engineering_1781601174745_0.pdf)
+-

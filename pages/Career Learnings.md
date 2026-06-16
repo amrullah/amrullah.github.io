@@ -4,6 +4,11 @@ alias::
 tags::
 description::
 
+- The next big skill inside engineering orgs will be AI cost discipline.
+    - Which model should this task use?
+      How much context is actually needed?
+      Should this run as an agent or a simple prompt?
+      What is the cost per accepted PR?
 - Seniority:
     - Trust (Reliability, consistency)
     - Influence (Advocacy, stakeholder buy-in)
