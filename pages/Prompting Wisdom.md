@@ -80,8 +80,8 @@ tags::
         - Preferences
         - Available time
         - Budget
-        - Think:
-          > "What about me affects the answer?"
+    - Think:
+      > "What about me affects the answer?"
 - # 4. Task Context
     - **What exactly should the AI do?**
       
@@ -121,8 +121,8 @@ tags::
         - Increase conversions
         - Learn a topic
         - Persuade stakeholders
-        - Think:
-          >  "What outcome am I trying to achieve?"
+    - Think:
+      >  "What outcome am I trying to achieve?"
 - # 6. Constraint Context
     - **What limitations exist?**
         - Humans need constraints to produce useful work. So do AI models.

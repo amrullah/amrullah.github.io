@@ -34,4 +34,6 @@ description::
 - ![mythical-man-month.pdf](../assets/mythical-man-month_1780293291567_0.pdf)
 - ![The Software Engineers Guidebook_v1.08.pdf](../assets/The_Software_Engineers_Guidebook_v1.08_1780578941135_0.pdf)
 - ![Laws of Software Engineering.pdf](../assets/Laws_of_Software_Engineering_1781601174745_0.pdf)
+- ![The_Costs_and_Benefits_of_Pair_Programming.pdf](../assets/The_Costs_and_Benefits_of_Pair_Programming_1781853864182_0.pdf)
+  id:: 6a311398-1b16-4faa-a836-bf248a7b6328
 -

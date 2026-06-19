@@ -90,7 +90,7 @@ tags:: Software Architecture
     - ## The Importance of Stakeholders
         - Stakeholders explicitly or implicitly drive the whole shape and direction of the architecture, which is solely created for their benefit and to serve their needs.
         - Stakeholders ultimately make or direct the fundamental decisions about the scope, functionality, operational characteristics and structure of the eventual product or system.
-        - Architectures must be evaluated with respect to the stakeholder needs as well as abstract architectural and software engineering principles.
+        - Architectures must be evaluated with respect to the stakeholder needs as well as abstract architectural and [[Software Engineering]] principles.
 - # Architectural Description
     - AD is a set of products that ^^documents^^ an architecture in a way it's stakeholders can understand and ^^demonstrates^^ that the architecture has met their concerns. #definition
     - An architecture for a software system can be an incredibly complex thing. Part of the architect's role is to describe this complexity to people who need to understand it.
