@@ -1,0 +1,5 @@
+- #[[Career Learnings]]
+- While joining a new place:
+    - Does product manager join the standups?
+        - To understand the collaboration between the Tech and Product. May be due to timezone difference, the communication is patchy.
+- While interviewing a candidate
