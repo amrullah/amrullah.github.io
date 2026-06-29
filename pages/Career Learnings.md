@@ -166,6 +166,9 @@ description::
                   Ravi
         - Year End
             - Conversion Upload at objective level design and implementation
+                - Diagrams
+                  collapsed:: true
+                    - {{renderer :drawio, 1782729159859.svg}}
                 - Expected Benefits and observed results:
                     - Prevent Team Detroit client attrition
                         - Manifestation: Team Detroit (c88) client is still with us
