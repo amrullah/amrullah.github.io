@@ -144,6 +144,7 @@ description::
                 - Conducted more talks on Modular Code Design, answered questions of team-mates, floated the coding guidelines feedback form so as to build a consensus around the Coding Guidelines.
                 - Instituted an updated **Unit Test Directory Structure** for python2 and python3 unit tests. Provided vision for the Unit Test improvements initiative (epic link) and aligned the team mates to the vision through discussions.
             - Manager's Feedback:
+              collapsed:: true
                 - Hi Amrullah,
                   
                   In Q2 you did a good job in coordinating with Alex and application support in enabling Objective upload for all customers. Objective upload process was deployed without major issues for Google and extended to Meta which was very critical.
@@ -166,6 +167,11 @@ description::
                   Ravi
         - Year End
             - Conversion Upload at objective level design and implementation
+                - The Migration Plan wiki which was fine-tuned in last quarter (Q2) has now facilitated the migration of all the clients from the old Conversion Tracker format to the New one, with negligible hiccups. Which has this impact, in Product Team's words:
+                    - This single feature was instrumental in renewing Ford.
+                    - For several large customers with lots of portfolios, this feature reduces customer workload by an order of magnitude because we have decoupled portfolios from the objective.
+                    - Further, this objective upload feature will be the foot-in-the-door for new logos and to expand new inventory across social and commerce.
+                    - Most importantly, pulling this off on a live system, on our most widely used capability and the critical path for publisher bidding, without an incident speaks volumes of your planning, diligence, and collaboration.
                 - Diagrams
                   collapsed:: true
                     - {{renderer :drawio, 1782729159859.svg}}
@@ -180,6 +186,7 @@ description::
                         - Manifestation: In the Old Portfolio-id Format, the client Team Detroit had exhausted the 1000 Trackers Limit in Google Ads platform. After they were migrated to the new Conversion Tracker format, this number shrunk down significantly to less than 100
             - Modular Code Guidelines + Test Driven Development + Mentorship
                 - Expected benefits and observed results:
+                  collapsed:: true
                     - High Velocity + Very little leakage of bugs in Production during accommodation of new requirements or code refactoring (Due to high test coverage + comprehensible code structure)
                         - Manifestation:
                             - For [[Conversion Upload at objective level]] a lot of lines of code had been pushed to production via these Pull Requests, after the Beta Release 12 PR's. Many of these are pure refactor PR's whose only test plan is "to ensure unit tests are passing" and which wouldn't have been attempted if there was no robust test coverage (especially [PR12](https://git.corp.adobe.com/AMO/cv-server/pull/13044) which has 30+ file changes)
