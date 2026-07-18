@@ -16,6 +16,8 @@ description::
 - ![Thinking Recursively by Eric S Roberts.pdf](../assets/Thinking_Recursively_by_Eric_S_Roberts_1751291186372_0.pdf)
 - ![Product Management-Masterclass-OnePager.pdf](../assets/Product_Management-Masterclass-OnePager_1754390229729_0.pdf)
 - ![Med_Arch_Share.pdf](../assets/Med_Arch_Share_1754727239622_0.pdf)
+    - ![Med_Arch_Share _uncorrupted_do_not_annotate.pdf](../assets/Med_Arch_Share_uncorrupted_do_not_annotate_1783148801769_0.pdf)
+      id:: 6a48af9e-7b47-4013-9e50-42868f72a62e
 - ![Book-5Kimball_The-Data-Warehouse-Toolkit-3rd-Edition-5.pdf](../assets/Book-5Kimball_The-Data-Warehouse-Toolkit-3rd-Edition-5_1766142345083_0.pdf)
 - ![impact_of_oo_cockburn_1993.pdf](../assets/impact_of_oo_cockburn_1993_1757148917106_0.pdf)
 - ![TDD How to Guide 26-07-21.pdf](../assets/TDD_How_to_Guide_26-07-21_1759855123467_0.pdf)
