@@ -18,6 +18,7 @@ description::
 - ![Med_Arch_Share.pdf](../assets/Med_Arch_Share_1754727239622_0.pdf)
     - ![Med_Arch_Share _uncorrupted_do_not_annotate.pdf](../assets/Med_Arch_Share_uncorrupted_do_not_annotate_1783148801769_0.pdf)
       id:: 6a48af9e-7b47-4013-9e50-42868f72a62e
+    - ![medallion_notes_amrullah.pdf](../assets/medallion_notes_amrullah_1784585683642_0.pdf)
 - ![Book-5Kimball_The-Data-Warehouse-Toolkit-3rd-Edition-5.pdf](../assets/Book-5Kimball_The-Data-Warehouse-Toolkit-3rd-Edition-5_1766142345083_0.pdf)
 - ![impact_of_oo_cockburn_1993.pdf](../assets/impact_of_oo_cockburn_1993_1757148917106_0.pdf)
 - ![TDD How to Guide 26-07-21.pdf](../assets/TDD_How_to_Guide_26-07-21_1759855123467_0.pdf)
@@ -41,3 +42,15 @@ description::
 - ![addy_osmani_new_sdlc_vibe_coding.pdf](../assets/addy_osmani_new_sdlc_vibe_coding_1782668123904_0.pdf)
 - ![Employee Exit Guide - Adobe.pdf](../assets/Employee_Exit_Guide_-_Adobe_1784547073351_0.pdf)
 -
+- some ai workshop vaibhav sisinty
+    - ![1. Building Claude Artifacts.pdf](../assets/1._Building_Claude_Artifacts_1784585869668_0.pdf)
+    - ![1. Foundations of AI .pdf](../assets/1._Foundations_of_AI_1784585869668_0.pdf)
+    - ![2. Building Custom AI Assistants .pdf](../assets/2._Building_Custom_AI_Assistants_1784585869668_0.pdf)
+    - ![2. Building Custom GPTs & AI Assistants.pdf](../assets/2._Building_Custom_GPTs_&_AI_Assistants_1784585869668_0.pdf)
+    -
+- not related to career:
+    - ![the_paradox_of_declining_female_happiness.pdf](../assets/the_paradox_of_declining_female_happiness_1784584977603_0.pdf)
+    - ![A_Critique_of_Deism.pdf](../assets/A_Critique_of_Deism_1784585401826_0.pdf)
+    - ![What-Great-Listeners-Actually-Do_WP-2019.pdf](../assets/What-Great-Listeners-Actually-Do_WP-2019_1784585596290_0.pdf)
+    - ![ A Misunderstood Reformer.pdf](../assets/_A_Misunderstood_Reformer_1784585793834_0.pdf)
+    -

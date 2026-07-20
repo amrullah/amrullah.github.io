@@ -1,6 +1,6 @@
 filters:: {"templates" false}
 type:: [[Undefined]]
-alias::
+alias:: Etrade
 tags::
 
 - **At Work** > **My Account** > **Company Resources to Documents from Your Company**
@@ -12,4 +12,5 @@ tags::
 - Gain and Loss statement: At work -> My Account -> Gains and Losses -> (choose previous financial year duration) -> Download expanded (was required by CA for tax filing)
 - **At work -> My account -> Company Resources -> Additional Documents from Company -> 2025 RSU and Stock Option Statement of Taxable Income^^** (this was helpful in 2025)
 - opening vested shares (for eg. 39k) + shares vested by company during the financial year (purchase conversion rate) - shares sold during the financial year(sale conversion rate) = closing balance
+- ![Trading-Window-Calendar.pdf](../assets/Trading-Window-Calendar_1784585013838_0.pdf)
 -
