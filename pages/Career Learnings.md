@@ -4,6 +4,13 @@ alias::
 tags::
 description::
 
+- Platforms I took subscription of, on my way out:
+    - deeplearning.ai
+    - datacamp.com
+    - pluralsight.com
+    - coursera
+    - educative.io
+    - anthropic skilljar
 - The next big skill inside engineering orgs will be AI cost discipline.
     - Which model should this task use?
       How much context is actually needed?
