@@ -39,4 +39,5 @@ description::
 - ![The_Costs_and_Benefits_of_Pair_Programming.pdf](../assets/The_Costs_and_Benefits_of_Pair_Programming_1781853864182_0.pdf)
   id:: 6a311398-1b16-4faa-a836-bf248a7b6328
 - ![addy_osmani_new_sdlc_vibe_coding.pdf](../assets/addy_osmani_new_sdlc_vibe_coding_1782668123904_0.pdf)
+- ![Employee Exit Guide - Adobe.pdf](../assets/Employee_Exit_Guide_-_Adobe_1784547073351_0.pdf)
 -
