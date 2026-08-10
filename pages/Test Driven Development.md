@@ -1,6 +1,6 @@
 filters:: {"templates" false}
 type:: [[Career Learnings]] 
-alias::
+alias:: TDD
 tags::
 
 - # The harms of Tech debt
@@ -24,3 +24,4 @@ tags::
 - Helps react to market changes quicker and gain a competitive edge
 - # Diagram
 - {{renderer :drawio, 1782666725814.svg}}
+-

@@ -25,7 +25,7 @@ tags::
     - ## Strategic
         - Managing Complexity with good Software Architecture and Code Design
         - Sensitizing the Team to  [[The Design of Everyday Things]] (seven fundamental principles of Design)  so that they thoughtfully design any interface (UI, API's, SDK's, scripts etc.) which are learnable and which constrain undesirable or destructive actions from being carried out.
-        - Team's maturity in Software Implementation Practices (TDD, Modular Code Design etc.)
+        - Team's maturity in Software Implementation Practices ([[TDD]], Modular Code Design etc.)
         - Mature automated testing infra
         - Automated checks before deployment
         - Mature Software Delivery process (requires less human actions, easy to do gradual rollout, easy to rollback),

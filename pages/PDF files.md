@@ -41,6 +41,7 @@ description::
   id:: 6a311398-1b16-4faa-a836-bf248a7b6328
 - ![addy_osmani_new_sdlc_vibe_coding.pdf](../assets/addy_osmani_new_sdlc_vibe_coding_1782668123904_0.pdf)
 - ![Employee Exit Guide - Adobe.pdf](../assets/Employee_Exit_Guide_-_Adobe_1784547073351_0.pdf)
+- ![eBook-DesigningDistributedSystems.pdf](../assets/eBook-DesigningDistributedSystems_1785520356613_0.pdf)
 -
 - some ai workshop vaibhav sisinty
     - ![1. Building Claude Artifacts.pdf](../assets/1._Building_Claude_Artifacts_1784585869668_0.pdf)
