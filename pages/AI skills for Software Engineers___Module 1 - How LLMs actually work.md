@@ -223,9 +223,4 @@
               print(f"Context used just in the prompt: {pct:.1f}%")
               ```
                 - {{evalparent}}
-                    -
-                    -
-                    -
-                    -
-                    -
 -
