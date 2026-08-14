@@ -1,6 +1,0 @@
-filters:: {"templates" false}
-type:: [[Concept]] 
-alias:: hippocampus, hippocampi, hippocampal
-tags:: Neuroscience
-
--

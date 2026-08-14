@@ -1,3 +1,0 @@
-type:: [[Undefined]]
-alias::
-tags::

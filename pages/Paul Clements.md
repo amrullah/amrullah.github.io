@@ -1,3 +1,0 @@
-type:: [[Author]]
-alias::
-tags::
