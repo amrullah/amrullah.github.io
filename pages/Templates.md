@@ -100,4 +100,9 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Programming Language Details
+- filters:: {"templates" false}
+  type:: [[Technologies]] 
+  alias::
+  tags::
+  template:: Technology Details
 -
