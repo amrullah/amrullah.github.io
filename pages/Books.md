@@ -1,3 +1,4 @@
+public:: true
 filters:: {"templates" false}
 type:: [[Portals]]
 alias:: book, Book, books
