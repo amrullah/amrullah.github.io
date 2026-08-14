@@ -428,7 +428,7 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :feature/enable-journals? false
- :default-home {:page "Portals"}
+ :default-home {:page "Amrullah Zunzunia"}
  :feature/enable-flashcards? true
  :graph/settings {:excluded-pages? false
  :orphan-pages? true}
