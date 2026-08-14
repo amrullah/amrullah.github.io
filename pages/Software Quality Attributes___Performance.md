@@ -1,5 +1,0 @@
-filters:: {"templates" false}
-type:: [[Software Quality Attribute]] 
-definition::
-alias:: Software Performance, Performance
-tags:: Software Architecture
