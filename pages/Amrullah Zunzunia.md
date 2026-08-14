@@ -1,3 +1,5 @@
+public:: true
+
 - Hello, this is Amrullah Zunzunia
     - Seasoned Backend Engineer
     - Socials:

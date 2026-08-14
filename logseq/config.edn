@@ -433,4 +433,4 @@
  :graph/settings {:excluded-pages? false
  :orphan-pages? true}
  :graph/forcesettings {:link-dist 80}
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? false}
