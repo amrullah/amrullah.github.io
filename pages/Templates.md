@@ -5,13 +5,15 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Basic Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Portal]]
   alias::
   tags::
   description::
   template:: Portal Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Book]]
   subtitle::
   alias::
@@ -19,18 +21,21 @@ exclude-from-graph-view:: true
   author::
   tags::
   template:: Book Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Author]]
   alias::
   tags::
   template:: Book Author Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[subject]]
   significance::
   alias::
   tags::
   template:: Subject Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Collection]]
   alias::
   description::
@@ -42,7 +47,8 @@ exclude-from-graph-view:: true
   alias:: 
   tags::
   template:: Chapter Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Software Quality Attribute]] 
   definition::
   alias::
@@ -63,7 +69,8 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Concept Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Job Role]]
   alias::
   tags::
@@ -74,7 +81,8 @@ exclude-from-graph-view:: true
   link:: 
   tags::
   template:: Internet Resource Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[course]] 
   alias::
   tags::
@@ -95,14 +103,22 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: E-learning website details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Programming Language]] 
   alias::
   tags::
   template:: Programming Language Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Technologies]] 
   alias::
   tags::
   template:: Technology Details
+- public:: true
+  filters:: {"templates" false}
+  type:: [[Company]] 
+  alias::
+  tags::
+  template:: Company Details
 -

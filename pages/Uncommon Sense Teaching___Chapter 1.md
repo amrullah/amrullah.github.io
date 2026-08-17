@@ -73,7 +73,6 @@ tags::
                 - Students often can't tell whether they have something in their [[LTM]] or in [[WM]]
     - ## [[Retrieval Practice]]
         - Diagram
-          collapsed:: true
             - ![Retrieval Practice](..assets/uncommon_sense_learning_illustrations/Fig_6_pg_9_buildding_memory.png)
         - Getting information in [[LTM]] can be difficult. However [[retrieval practice]] is one of the best techniques for strengthening new information in [[LTM]].
             - Refer: ((68f61743-3b29-4d07-81fc-131c6a85c5b4))
