@@ -1,13 +1,16 @@
 public:: true
+alias:: me
 
-- Hello, this is Amrullah Zunzunia
-    - Seasoned Backend Engineer
-    - Socials:
-        - LinkedIn: [Amrullah Zunzunia | LinkedIn](https://www.linkedin.com/in/amrullah-zunzunia/)
-        - Github: [amrullah (Amrullah Zunzunia)](https://github.com/amrullah)
-        - Youtube: [Amrullah Zunzunia](https://www.youtube.com/@sultan_of_oop)
-        - Topmate: [Amrullah Zunzunia (@amrullah) | Topmate](https://topmate.io/amrullah)
+- Hello, this is ^^Amrullah Zunzunia^^
+    - Seasoned Backend Engineer with ^^12 years of experience^^ in developing Software Systems with focus on [[Extensibility]], [[Maintainability]] and [[Reliability]]
+        - This prevents avoidable toil in Software Teams, reduces number of bugs shipped to production and ultimately contributes to [[Customer Retention]].
+        -
+- Socials:
+    - LinkedIn: [Amrullah Zunzunia | LinkedIn](https://www.linkedin.com/in/amrullah-zunzunia/)
+    - Github: [amrullah (Amrullah Zunzunia)](https://github.com/amrullah)
+    - Youtube: [Amrullah Zunzunia](https://www.youtube.com/@sultan_of_oop)
+    - Topmate: [Amrullah Zunzunia (@amrullah) | Topmate](https://topmate.io/amrullah)
     -
-- My knowledge-graph can be accessed from [[portals]]
+- This personal website is also a know can be accessed from [[portals]]
     - A [[Portal]] is basically a pathway that sheds more light on an area of the graph. For example [[Book]] or [[course]]
     -

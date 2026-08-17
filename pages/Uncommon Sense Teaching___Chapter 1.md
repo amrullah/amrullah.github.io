@@ -1,3 +1,4 @@
+public:: true
 filters:: {"templates" false}
 type:: [[Chapter]]
 name:: Building Memory: How Students Fool Themselves into Thinking they're Learning
