@@ -1,3 +1,5 @@
+public:: true
+
 - ((68970928-d90c-48d2-8a58-fa0bb7a30257))
 - The [[Medallion Architecture]] came up as a result of experiments by [[DataBricks]] company and was then adopted by other platforms
 - Operational Data

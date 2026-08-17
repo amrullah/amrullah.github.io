@@ -1,3 +1,4 @@
+public:: true
 filters:: {"templates" false}
 type:: [[Chapter]]
 name:: Software Architecture Concepts

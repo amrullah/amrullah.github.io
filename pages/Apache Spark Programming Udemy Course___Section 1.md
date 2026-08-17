@@ -1,3 +1,5 @@
+public:: true
+
 - The [[Big Data]] Problem (the 3 V's of Big Data)
     - Variety (structured, semi-structured, unstructured)
     - Volume
