@@ -433,4 +433,5 @@
  :graph/settings {:excluded-pages? false
  :orphan-pages? true}
  :graph/forcesettings {:link-dist 80}
- :publishing/all-pages-public? false}
+ :publishing/all-pages-public? false
+ :feature/enable-whiteboards? false}
