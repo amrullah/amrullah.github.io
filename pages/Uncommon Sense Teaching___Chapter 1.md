@@ -18,8 +18,7 @@ tags::
 - # [[Learning]] creates Links in the [[Long Term Memory]]
     - ## [[Neuron]]
         - Diagram:
-          collapsed:: true
-            - ![Neural Connections](..assets/uncommon_sense_learning_illustrations/Fig_2_pg_3_building_memory.png){:height 1360, :width 840}
+            - ![Neural Connections](..assets/uncommon_sense_learning_illustrations__Fig_2_pg_3_building_memory.png){:height 1360, :width 840}
             -
         - Biological cell, fundamental building block of our [[Brain]] . Each person has around 86 billions of them.
         - Whenever you learn a new fact, [[Concept]] or procedure, you are making new connections between small sets of [[Neurons]]
