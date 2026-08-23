@@ -1,6 +1,6 @@
 type:: [[Software Quality Attribute]] 
 definition:: .
-alias:: Software Availability, Availability, High Availability
+alias:: Software Availability, High Availability, highly available
 tags:: [[Software Architecture]]
 
 -
