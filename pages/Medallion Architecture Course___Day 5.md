@@ -31,7 +31,7 @@
         - `_changed_data` folder, where changes are kept track of, The Change Data Feed (CDF) will try to figure out what is new.
         - Dedup is not automatic. If a userid 123 is repeated in multiple rows, it will show multiple rows, by default.
         - ((68e53b78-d492-4c9d-b665-9d2427e22f57))
-            - Take care about two silver jobs causing race condition.
+            - Take care about two silver jobs causing [[Race Condition]].
     - [Manual CDF Example and CDF Enabled Example](..assets/AD_databricks-samples-main/DeltaTable/09_CDF_sample.ipynb) #[[Silver Layer]] #[[Bronze Layer]]
     - Additional Resources:
         - https://docs.databricks.com/aws/en/delta/delta-change-data-feed

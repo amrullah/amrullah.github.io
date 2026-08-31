@@ -118,6 +118,7 @@ public:: true
           #+END_WARNING
         - When your request reaches database, it's a great time to start documenting the **relevant** columns / fields for each entity.
     - ## 5. Deep Dives (~10 min)
+      collapsed:: true
         - Now that you have High Level Design ready, you'll spend the remaining time in hardening the design by:
             - Ensuring it meets all your [[NFR]]s
             - Addressing Edge cases
