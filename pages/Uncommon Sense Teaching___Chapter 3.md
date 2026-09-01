@@ -56,7 +56,7 @@ tags::
         - ie. you can *declare* it.
     - In [[declarative learning]], [[WM]] deposits the new information it is gathering into [[LTM]] in the [[Neocortex]]
         - But the [[Neocortex]] is huge, fortunately the [[Hippocampus]] acts as an index.
-    - The [[Neocortex]] does not store the new information itself, it only links to where the information is stored in the [[Neocortex]]. Signals from the [[Hippocampus]] to the [[Neocortex]] can retrieve and [[link]] together information that is distributed in [[Neocortex]]
+    - The [[Neocortex]] does not store the new information itself, it only links to where the information is stored in the [[Neocortex]]. Signals from the [[Hippocampus]] to the [[Neocortex]] can retrieve and link together information that is distributed in [[Neocortex]]
       collapsed:: true
         - So each time a student retrieves information, the [[Hippocampus]] strengthens links between information stored around the [[Neocortex]] #[[Retrieval Practice]]
         - Eventually after memories are consolidated in the [[Neocortex]] ( a process that can continue for many months, mainly while you are sleeping ), [[Working Memory]] is able to retrieve the information directly from the [[Neocortex]] without using the [[Hippocampus]] as an index

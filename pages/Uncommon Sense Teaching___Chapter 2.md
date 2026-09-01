@@ -31,7 +31,7 @@ tags::
     - The *Central Executive* keeps a piece of information in mind by tossing it and reverberating it between the Focus of Attention, seeing and hearing networks and itself.
         - This roundabout movement keeps the thoughts alive and is also why one can only hold so much information in their minds at once.
     - [[Working Memory]] [[Neurons]] are different from those involved in [[Long Term Memory]]. They, unlike [[Long Term Memory]]'s [[Neurons]], can't hold the information for very long.
-        - Fortunately, if you've [[learned]] information and stored it in [[Long Term Memory]], that information can [[link]] into and boost your [[Working Memory]].
+        - Fortunately, if you've [[learned]] information and stored it in [[Long Term Memory]], that information can link into and boost your [[Working Memory]].
     - Experienced teachers know that depending on the complexity of the task, they may need to give one instruction, wait for students to complete it, then give the next instruction. Or they might write the instructions on a whiteboard, so even if the information falls out of students' [[Working Memory]], the list is there anyway.
 - # How Differences in [[Working Memory]] impact your classroom
     - Students' varying [[Working Memory]] capacities have an impact on you as a teacher in the classroom.
