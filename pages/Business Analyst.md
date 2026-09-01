@@ -1,11 +1,7 @@
 public:: true
 filters:: {"templates" false}
-type:: [[Portal]]
+type:: [[Job Role]]
 alias::
 tags::
-description::
 
--
--
--
 -

@@ -1,11 +1,7 @@
 public:: true
 filters:: {"templates" false}
-type:: [[Portal]]
-alias::
+type:: [[Job Role]]
+alias:: Product Owner
 tags::
-description::
 
--
--
--
 -

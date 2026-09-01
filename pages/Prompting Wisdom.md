@@ -1,3 +1,4 @@
+public:: true
 filters:: {"templates" false}
 type:: [[Career Learnings]] 
 alias::
@@ -10,8 +11,8 @@ tags::
     - **How should you do it?** → Process context
     - **What should the result look like?** → Output context
 - The more clearly you answer these questions, the better the AI performs.
-- ---
 - # A Simple Mental Model
+  collapsed:: true
     - Imagine you're hiring a consultant for 30 minutes.
     - Before they can help, they need to know:
         - Who they are supposed to be
@@ -21,6 +22,7 @@ tags::
         - What output you expect
     - These map directly to different kinds of prompt context.
 - # 1. Identity Context (Role Context)
+  collapsed:: true
     - **Who should the AI act as?**
         - This sets expertise, perspective, and decision-making style.
 - ### Example

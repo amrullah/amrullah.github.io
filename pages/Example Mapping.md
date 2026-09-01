@@ -2,7 +2,7 @@ public:: true
 filters:: {"templates" false}
 type:: [[Concept]] 
 alias::
-tags:: BDD, TDD
+tags:: BDD, TDD, Agile
 
 - ## What is Example Mapping?
   
