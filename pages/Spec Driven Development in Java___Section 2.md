@@ -1,4 +1,10 @@
-# [[Claude Code]] Basics
+public:: true
+filters:: {"templates" false}
+type::
+alias::
+tags::
+
+- # [[Claude Code]] Basics
 - ## Introduction
     - ### Terminal based AI Assistant
         - Lives in the terminal, integrated directly into the development workflow

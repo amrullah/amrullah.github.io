@@ -1,6 +1,7 @@
 exclude-from-graph-view:: true
 
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type::
   alias::
   tags::
@@ -41,7 +42,8 @@ exclude-from-graph-view:: true
   description::
   tags::
   template:: Collection Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Chapter]]
   name:: 
   alias:: 
@@ -54,7 +56,8 @@ exclude-from-graph-view:: true
   alias::
   tags:: Software Architecture
   template:: Software Quality Attribute
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Undefined]]
   alias::
   tags::
@@ -64,7 +67,8 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Propaganda Technique
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Concept]] 
   alias::
   tags::
@@ -75,7 +79,8 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Job Role
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Internet Resource]] 
   alias:: 
   link:: 
@@ -87,12 +92,14 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Course Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Learning Technique]]
   alias:: 
   tags:: 
   template:: Learning Technique Details
-- filters:: {"templates" false}
+- public:: true
+  filters:: {"templates" false}
   type:: [[Discipline]]
   alias:: 
   tags:: 

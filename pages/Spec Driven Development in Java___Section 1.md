@@ -1,4 +1,10 @@
-# Three important pillars
+public:: true
+filters:: {"templates" false}
+type::
+alias::
+tags::
+
+- # Three important pillars
     - **Discovery**
       collapsed:: true
         - Explore the requirements with AI before writing code.

@@ -1,4 +1,8 @@
 public:: true
+filters:: {"templates" false}
+type::
+alias::
+tags::
 
 - # What are System Design Interviews
     - [[System Design]] Interviews are a way to assess your ability to take an ambiguously defined, high level problem and break it down into pieces of infrastructure that you'll need to solve it. #definition

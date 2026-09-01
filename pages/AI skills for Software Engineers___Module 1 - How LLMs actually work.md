@@ -1,4 +1,10 @@
-# Foundations of Large Language Models
+public:: true
+filters:: {"templates" false}
+type::
+alias::
+tags::
+
+- # Foundations of Large Language Models
     - ## What are [[LLM]]s
         - Fundamentally a probability machine which predicts what word or token should come next in a sequence given all the words that came before.
     - ## Why "Large" and "Language" matter
@@ -105,7 +111,7 @@
           |--|--|--|--|
           |GPT-3.5|4k|~3000 words|Limited for Long documents|
           |GPT-4|8k or 128k|~6k or 96k words|128k version enables longer conversations|
-          |Claude 3.5 Sonnet|200k|~150k words|Can work with entire codebases|
+          |Claude 3.5 [[Sonnet]]|200k|~150k words|Can work with entire codebases|
           |Llama 3.1|128k|~96k words|Open source option|
           |Gemini 1.5 Pro|1M|~750k words|Can effectively read entire books|
         - #+BEGIN_TIP
