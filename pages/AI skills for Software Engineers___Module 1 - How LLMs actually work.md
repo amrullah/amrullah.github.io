@@ -14,11 +14,11 @@
         - **Cost:** Every token costs money. Understanding tokenization is essential for cost control.
         - **Latency:** Each token is generated one at a time. Understanding streaming enables responsive interfaces.
         - **Reliability:** Techniques like [[Retrieval Augmented Generation]] and structured prompting make systems more factual and predictable.
-- # Tokens and Tokenization
+- # [[Tokens]] and [[Tokenization]]
     - Before LLM can process any text, it must convert that text into numbers. It does this by breaking the text into small chunks called tokens. A token can be a word, a part of a word, or even just a character or punctuation mark, depending on the tokenizer.
-    - ## Why tokens instead of characters or words
+    - ## Why [[tokens]] instead of characters or words
         - Using individual characters is inefficient computationally and memory-wise, and using full words is inflexible as you would need a token for every possible word in existence, including the rare ones.
-        - Tokenization finds the sweet spot by breaking text into meaningful subunits frequent enough to be efficient, but granular enough to handle any language.
+        - [[Tokenization]] finds the sweet spot by breaking text into meaningful subunits frequent enough to be efficient, but granular enough to handle any language.
     - ## Byte-pair encoding (BPE) algorithm
         - Most Modern tokenizers use Byte-pair encoding algorithm, which is as follows:
             - Start by treating every single character as it's own token
@@ -34,16 +34,16 @@
             - Merge `th` and `e` into `the`.
             - Merge `i`, `n`, `g` into `ing`.
         - The result is an efficient vocabulary. Common words and sub-words like "the" or "ing" are single tokens, and flexible, handling rare words by composing them from smaller pieces.
-    - ## How Tokenization affects cost and behavior
-        - Understanding how [[LLMs]] process text is essential for optimizing both, performance and budget. Tokenization serves as the bridge between raw text and machine understanding, impacting your workflow in several key ways:
-            - **Cost:** You pay per token, not per word. A 100 word might cost 120 tokens. Longer or more complex text (like code) tokenize less efficiently than English prose. Your billing depends on tokenization.
+    - ## How [[Tokenization]] affects cost and behavior
+        - Understanding how [[LLMs]] process text is essential for optimizing both, performance and budget. [[Tokenization]] serves as the bridge between raw text and machine understanding, impacting your workflow in several key ways:
+            - **Cost:** You pay per [[token]] , not per word. A 100 word might cost 120 tokens. Longer or more complex text (like code) tokenize less efficiently than English prose. Your billing depends on tokenization.
             - **Model Behavior:** Different [[LLMs]] use different tokenizers. The same prompt might tokenize into 50 tokens in one model and 75 tokens in another, affecting both, the cost and the model's ability to see the entire prompt in it's [[Context Window]].
             - **Non-obvious patterns:**
-                - Punctuation and spacing are separate tokens. A comma costs the same as a word.
-                - Code tokenizes poorly. 100 words of Python code might become 150 tokens because of symbols like `=`, `(`, `)`
+                - Punctuation and spacing are separate [[tokens]] . A comma costs the same as a word.
+                - Code [[tokenizes]] poorly. 100 words of Python code might become 150 tokens because of symbols like `=`, `(`, `)`
                 - Whitespace matters. A space before a word is often a separate token from the word itself.
                 - Numbers are often split into digit tokens.
-        - ### Token counting Rules of Thumb
+        - ### [[Token]] counting Rules of Thumb
             - For a quick estimate without running a tokenizer:
                 - **English prose:** ~4 characters per token (1000 characters ≈ 250 tokens)
                 - **Code:** ~3 characters per token (more symbols, less efficiency)
@@ -79,8 +79,8 @@
                     - {{evalparent}}
                     -
         - ## Practical implications for engineers
-            - Understanding tokenization directly shapes cost, reliability and output quality of every [[LLM]] powered feature you ship.
-                - **Cost forecasting:** You can estimate API costs by understanding tokenization patterns before you ever make a call.
+            - Understanding [[tokenization]] directly shapes cost, reliability and output quality of every [[LLM]] powered feature you ship.
+                - **Cost forecasting:** You can estimate API costs by understanding [[Tokenization]] patterns before you ever make a call.
                   logseq.order-list-type:: number
                 - **Context window management:** You know how much content fits in model's context in tokens, not  words
                   logseq.order-list-type:: number
