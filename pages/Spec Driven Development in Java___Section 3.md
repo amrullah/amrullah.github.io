@@ -246,6 +246,7 @@ tags::
                   - 'Month' = calendar month, customer timezone"
                   ```
         - Another useful thing to do. After Claude Code has generated the Spec file, Ask Claude to interactively ask the open questions from the spec like this:
+          collapsed:: true
             - ```markdown
               Prompt me to answer each question in the spec. 
               Propose possible options and allow me to provide my own if required.
@@ -255,6 +256,7 @@ tags::
               3. Create a new rule with examples
               ```
         - Fully formed `/discover` command, with the above interactive question resolutions, built in
+          collapsed:: true
             - ```markdown
               
               ---
@@ -319,6 +321,11 @@ tags::
                 
               Save the result to doc/specs/<feature>.md
               
+              ```
+        - Next spec generated using
+            - ```markdown
+              /discover "Feature: View Account History
+              As a customer I want to view my cashback transaction history so that I can know where I earn the most cashbacks"
               ```
 - ## AI powered discovery, in a nutshell
     - ### You provide domain context
