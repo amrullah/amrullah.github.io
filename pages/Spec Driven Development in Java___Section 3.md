@@ -39,7 +39,7 @@ tags::
         - > What could go wrong?
         - Finds edge cases, boundary conditions and mismatches
 - ## [[Example Mapping]]
-    - When faced with an ambiguous or vague or summarized requirement or acceptance criterion, asking a simple question:
+    - When faced with an ambiguous or vague or summarized requirement or acceptance criterion from [[Product Owner]] , asking a simple question:
       > Can you give me an example of that?
         - That leads you down the track of hunting for edge-cases and variations and exposing assumptions you may have made
     - ![Example Mapping](..assets/example_mapping_export.png)
@@ -174,7 +174,7 @@ tags::
           ```
     - Since you are going to use the same prompt template for each user story, it's better to create a `slash command` out of it
         - It's done by adding a markdown file `<command name>.md` in `.claude/commands` directory.
-        - Sample fully formed `/discover` command:
+        - Almost fully formed `/discover` command:
           collapsed:: true
             - ```markdown
               ---
@@ -230,20 +230,95 @@ tags::
               
               Save the result to doc/specs/<feature>.md
               ```
-        - Usage in claude code terminal
-            - ```
-              /discover "As a customer, I want to earn cashback on my purchases
-              so that I am rewarded for my loyalty.
+            - Usage in claude code terminal
+                - ```
+                  /discover "As a customer, I want to earn cashback on my purchases
+                  so that I am rewarded for my loyalty.
+                  
+                  Draft rules:
+                  - Standard cashback is 1% of qualifying spend
+                  - Premium members earn 2%
+                  - Monthly cashback is capped at $50 per member
+                  - Refunds must reverse any cashback earned
+                  
+                  Known constraints:
+                  - All amounts in USD, round half-up to cent
+                  - 'Month' = calendar month, customer timezone"
+                  ```
+        - Another useful thing to do. After Claude Code has generated the Spec file, Ask Claude to interactively ask the open questions from the spec like this:
+            - ```markdown
+              Prompt me to answer each question in the spec. 
+              Propose possible options and allow me to provide my own if required.
+              Based on my anwers, you should do one of the below 3 actions:
+              1. update the corresponding rule.
+              2. Add or update examples
+              3. Create a new rule with examples
+              ```
+        - Fully formed `/discover` command, with the above interactive question resolutions, built in
+            - ```markdown
               
-              Draft rules:
-              - Standard cashback is 1% of qualifying spend
-              - Premium members earn 2%
-              - Monthly cashback is capped at $50 per member
-              - Refunds must reverse any cashback earned
+              ---
+              allowed-tools: Write
+              description: Discover feature rules from a user story using Example Mapping
+              argument-hint: "<user story in quotes>"
+              ---
+              You are a domain expert in customer loyalty.
+              Propose rules, examples, counter-examples and questions
+              using the Example Mapping approach.
+              Treat the draft rules below as a starting point –
+              refine, split, or challenge them as needed.
               
-              Known constraints:
-              - All amounts in USD, round half-up to cent
-              - 'Month' = calendar month, customer timezone"
+              ###
+              $ARGUMENTS
+              ###
+              
+              Your task is NOT to write Gherkin or Given/When/Then steps. Instead:
+              1. Identify rules; each must start with "Should..." or "Must...".
+              2. Give one or more examples per rule. Use "The one where..."
+                 notation by default. When a rule's inputs vary independently,
+                 use a markdown table instead (one column per input, one column
+                 per output).
+              3. Give at least one counter-example per rule where a meaningful
+                 valid edge case exists. A counter-example should be a valid
+                 business boundary or exclusion, not a bug. A boundary row in a
+                 table satisfies the counter-example requirement for that rule —
+                 don't restate it as a separate bullet.
+              4. List any open questions per rule.
+              
+              QUALITY CHECKS:
+              - Use plain business language. No UI steps.
+              - Each example must cover a distinct business behaviour, rule
+                boundary, or decision outcome.
+              - Do not include examples that differ only in amount, wording,
+                merchant name, or channel if the business outcome is the same.
+              - Cover the normal case first, then only add examples for
+                boundaries or genuinely different business outcomes.
+              - When a rule is expressed as a table, don't also list the same
+                scenarios as bullet examples — only add a bullet if it
+                introduces a distinct rule, boundary, or business outcome the
+                table doesn't capture.
+              - Prefer one compact table plus one counter-example over several
+                repetitive examples.
+              - Before finalising, remove or merge duplicate examples so the
+                final set is minimal but complete.
+              
+              OUTPUT FORMAT:
+              - Rule: ...
+                  - Example: The one where...
+                  - Counter-example: The one where...
+                  - Questions: ...
+              
+              After generating the rules, examples and questions:
+              
+              5. Present the open questions to the user, one at a time.
+                 For each question, provide an interactive dropdown list of 3-4 sensible options, plus a final option: Something else
+              6. When the user has answered the questions, fold the answers into rules and examples. Remove the questions section.
+                 No unresolved questions in the final spec.
+              7. Present the complete spec for review. Do not save until the user approves.
+              
+                
+              Save the result to doc/specs/<feature>.md
+              
               ```
 - ## AI powered discovery, in a nutshell
     - ### You provide domain context
