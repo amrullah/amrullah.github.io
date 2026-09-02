@@ -323,10 +323,14 @@ tags::
               
               ```
         - Next spec generated using
-            - ```markdown
+          collapsed:: true
+            - collapsed:: true
+              ```markdown
               /discover "Feature: View Account History
               As a customer I want to view my cashback transaction history so that I can know where I earn the most cashbacks"
               ```
+                - It generated this spec file: [spec_driven_development_practice/doc/specs/view-account-history.md at main · amrullah/spec_driven_development_practice](https://github.com/amrullah/spec_driven_development_practice/blob/main/doc/specs/view-account-history.md)
+                -
 - ## AI powered discovery, in a nutshell
     - ### You provide domain context
         - A role line and the user story tell [[Claude Code]] the business you are in and what the user wants
