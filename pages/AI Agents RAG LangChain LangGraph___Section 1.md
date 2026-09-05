@@ -1,8 +1,4 @@
 public:: true
-filters:: {"templates" false}
-title:: 
-alias::
-tags::
 
 - # LangChain Foundations
 - ## The Langchain Ecosystem
