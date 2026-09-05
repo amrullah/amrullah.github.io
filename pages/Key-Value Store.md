@@ -1,7 +1,7 @@
 public:: true
 filters:: {"templates" false}
-type:: [[LLM]] 
-alias:: claude-haiku-3-5
+type:: [[Database Types]] 
+alias::
 tags::
 
 -

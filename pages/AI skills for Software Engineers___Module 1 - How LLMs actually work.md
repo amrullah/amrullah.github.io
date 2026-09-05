@@ -156,8 +156,8 @@ tags::
             - How much latency you add.
         - ### Sliding Window and Rolling Context
           logseq.order-list-type:: number
+          id:: 6a96dbf4-0709-4fc7-9548-265f8bb39cd4
             - Keep a conversation going by maintaining only the most only the most recent messages. Summarize or discard old messages.
-              collapsed:: true
                 - #+BEGIN_TIP
                   A bounded data structure like deque (double ended queue) may be helpful
                   #+END_TIP

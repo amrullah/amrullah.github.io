@@ -1,7 +1,7 @@
 public:: true
 filters:: {"templates" false}
 type:: [[LLM]] 
-alias:: claude-sonnet, claude-sonnet-4-5
-tags:: Anthropic
+alias:: 
+tags::
 
 -

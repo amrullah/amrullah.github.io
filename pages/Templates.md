@@ -128,4 +128,10 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Company Details
+- public:: true
+  filters:: {"templates" false}
+  title:: 
+  alias::
+  tags::
+  template:: Course Section Details
 -

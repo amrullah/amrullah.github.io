@@ -18,7 +18,7 @@ alias:: me
 - This personal website is also a knowledge-base, where I record my summarized learnings.
     - [[Portals]] is the entry-point.
     - Some books I have been reading lately:
-        - {{query (property :type [[Book]])}}
+        - {{query (and (property :type [[Book]]) (not [[Templates]]))}}
           query-table:: true
           query-properties:: [:page :subtitle :subject :author :tags :title]
     -

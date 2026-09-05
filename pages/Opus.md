@@ -1,8 +1,9 @@
 public:: true
 filters:: {"templates" false}
 type:: [[LLM]] 
-alias::
-tags::
+alias:: claude-opus, claude-opus-4-5
+tags:: Anthropic
 
+-
 -
 -
