@@ -1,8 +1,4 @@
 public:: true
-filters:: {"templates" false}
-title:: 
-alias::
-tags::
 
 - # Foundations of Large Language Models
     - ## What are [[LLM]]s
