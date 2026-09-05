@@ -1,6 +1,6 @@
 public:: true
 filters:: {"templates" false}
-type::
+title:: 
 alias::
 tags::
 
