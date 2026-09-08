@@ -5,7 +5,7 @@ alias::
 tags::
 
 - # What are System Design Interviews
-    - [[System Design]] Interviews are a way to assess your ability to take an ambiguously defined, high level problem and break it down into pieces of infrastructure that you'll need to solve it. #definition
+    - [[System Design]] Interviews are a way to assess your ability to take an ^^ambiguously defined^^, high level problem and break it down into ^^pieces of infrastructure^^ that you'll need to solve it. #definition
     - These interviews are **not** about **getting to a single correct answer**.
     - **Rather your interviewer is looking to:** #[[System Design]]
         - Assess your ability to navigate a complex problem
@@ -14,7 +14,6 @@ tags::
 - # Assessment
     - Each company will have a different rubric for system design, but they will usually have these themes in common
     - ## Problem Navigation
-      collapsed:: true
         - The interviewer is looking to assess your ability to **navigate a complex, under-specified problem**. This means you should be able to:
             - **Break down** the problem into smaller, more manageable pieces
             - **Prioritize** the most important ones, and
@@ -58,7 +57,6 @@ tags::
       collapsed:: true
         - {{renderer :drawio, 1787236710108.svg}}
     - ## 1. Requirements (~5 min)
-      collapsed:: true
         - ### Functional Requirements
             - They are your **"Users should be able to ..."** statements. These are the core features of your system and should be the first thing to discuss with your interviewer.
             - #+BEGIN_IMPORTANT
