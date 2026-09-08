@@ -8,6 +8,7 @@
     padding: 0px !important;
 }
 
-/* .left-sidebar {
-    z-index: 1;
-} */
+
+.l.flex drag-region {
+    background-color: #161218;
+}
