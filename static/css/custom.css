@@ -1,5 +1,3 @@
-@import url("https://raw.githack.com/stdword/logseq-bujo-theme/main/src/base.css");
-@import url("https://raw.githack.com/stdword/logseq-bujo-theme/main/src/light-sepia.css");
 
 button.kit {
   background: var(--ls-tertiary-background-color);
