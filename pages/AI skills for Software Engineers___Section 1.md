@@ -4,11 +4,11 @@ public:: true
     - ## What are [[LLM]]s
         - Fundamentally a probability machine which predicts what word or token should come next in a sequence given all the words that came before.
     - ## Why "Large" and "Language" matter
-        - **Large:** This refers to both, the scale of the model (hundreds of billions of internal parameters) and the scale of training data (a significant portion of public internet). These parameters capture tiny patterns in how words relate to concepts, grammar and ideas.
+        - **Large:** This refers to both, the ^^scale^^ of the model (hundreds of billions of internal parameters) and the scale of training data (a significant portion of public internet). These parameters capture tiny patterns in how words relate to concepts, grammar and ideas.
         - **Language:** The model's domain. It's trained to understand and generate human language in all forms, from prose and poetry to structured text like JSON and code like Python
         - **Model:** A mathematical representation of language.
     - ## What [[LLM]]s actually do
-        - There are no special "reasoning" models triggered in an LLM when you ask it to write code or to answer a question or to summarize a document. These abilities emerge naturally from the core task of LLM, which is to predict statistically likely next token, learned across an enormous corpus of text.
+        - There are no special **reasoning** models triggered in an LLM when you ask it to write code or to answer a question or to summarize a document. These abilities emerge naturally from the core task of LLM, which is to predict statistically likely next token, learned across an enormous corpus of text.
         - LLMs are probabilistic, not deterministic. Which means it can be creative, flexible and generalizable across contexts. On the downside it can also "hallucinate", confidently generating garbage information that sounds plausible because it fits the statistical patterns.
     - ## Practical implications for engineers
         - **API Design:** When calling an LLM API, you control temperature and sampling parameters to tune now creative vs conservative the model is.
