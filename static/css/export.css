@@ -4,11 +4,12 @@
 /* @import url('https://cdn.jsdelivr.net/gh/nikdoof/base16-logseq@main/css/base16-equilibrium-dark.css'); */
 /* @import url('https://cdn.jsdelivr.net/gh/nikdoof/base16-logseq@main/css/base16-atelier-cave.css'); */
 
-.main-content-container{
+#main-content-container{
     padding: 0px !important;
 }
 
 
-.l.flex drag-region {
-    background-color: #161218;
+.l.flex.drag-region {
+    /* background-color: #161218; */
+    background-color: #18131a;
 }
