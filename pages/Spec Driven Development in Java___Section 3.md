@@ -115,7 +115,6 @@ tags::
           
           ```
     - Better Template (Seed the prompt with what you already know, nudge it to use tables for displaying examples):
-      collapsed:: true
         - ```markdown
           You are a domain expert in {{industry name: like customer loyalty}}
           Based on User Story below, propose rules, examples, counter-examples and questions 
@@ -167,7 +166,6 @@ tags::
           
           ```
     - Back and forth starts. Answer the open questions in a rule and prompt something like:
-      collapsed:: true
         - ```
           Update Rule: ... Based on these anwers:
           ...(paste the questions and anwers)

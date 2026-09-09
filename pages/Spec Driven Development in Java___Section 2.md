@@ -96,7 +96,8 @@ tags::
       ```
       Explain the class CashbackService
       ```
-      The output will be brief and arguably concise. This is in contrast with `/effort high` where the response may be very very detailed and almost verbose.
+      The output will be brief and arguably concise. 
+      This is in contrast with `/effort high` where the response may be very very detailed and almost verbose.
 - ## Understanding costs - [[Claude Code]] Plans
     - [Plans & Pricing | Claude by Anthropic](https://claude.com/pricing) Check this for updated information
     - |Plan|Best For|
@@ -114,7 +115,6 @@ tags::
         - High effort / extended thinking
           collapsed:: true
             - > Don't leave it on `/effort high` for simple tasks
-            -
 - ## Interactive shortcuts
     - Common Shortcuts
         - |Short cut|Purpose|

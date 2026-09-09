@@ -58,7 +58,7 @@ tags::
     - As your project grows `CLAUDE.md` gets longer. Scoped rules keep it focused.
     - Disadvantage of large `CLAUDE.md`
         - Claude loads all rules on EVERY prompt. Even if the change was only upon a single file.
-            - This will eat up space in context window.
+            - This will eat up space in [[context window]].
     - Solution
         - Scoped rules files in `.claude/rules/` dir.
         - Each rule file is scoped to a file path pattern. Claude reads only the rules that match the file you're editing.
