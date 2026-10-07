@@ -1,5 +1,5 @@
-public:: true
 
+public:: true
 - # API Design Principles
     - **Design around resources, not actions.**
       logseq.order-list-type:: number
@@ -74,8 +74,7 @@ public:: true
 - ## Authentication and Authorization
     - > Who is making this request? And are they allowed to do what they are requesting to?
 - ### API Keys vs JWT Tokens
-    - > Use API keys for internal service communication and external developer access.
-    - > Use JWT tokens for user sessions in web and mobile applications
+    - > Use JWT tokens for user sessions in web/mobile applications as they can carry user context and be stateless. Use API keys for internal service communication and external developer access.
 - #### API Keys
     - ```
       GET /events

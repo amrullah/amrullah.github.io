@@ -134,4 +134,9 @@ exclude-from-graph-view:: true
   alias::
   tags::
   template:: Course Section Details
+- <div style="display: flex;"> 
+  <div> Line 1 <br /> Line 2</div> 
+  <div> Second box (you can add more) </div> 
+  </div>
+  template:: Div Flex (Side by Side)
 -
