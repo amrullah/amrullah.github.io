@@ -1,5 +1,5 @@
 filters:: {"templates" false}
-type:: [[course]] 
+type:: [[Knowledge Acquisitions]] 
 alias::
 tags:: Udemy
 

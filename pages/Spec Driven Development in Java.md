@@ -1,6 +1,6 @@
 public:: true
 filters:: {"templates" false}
-type:: [[course]] 
+type:: [[Knowledge Acquisitions]] 
 alias::
 tags:: TDD, LLM
 
@@ -9,3 +9,4 @@ tags:: TDD, LLM
     - Code Repository: [amrullah/spec_driven_development_practice](https://github.com/amrullah/spec_driven_development_practice)
 - # What was built
     - A Microservice serving cashback rewards using [[Spring Boot]]
+    - Check the sections below in ("Hierarchy") where I have summarized my learnings into notes.

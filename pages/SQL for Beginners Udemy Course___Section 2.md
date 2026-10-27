@@ -32,7 +32,7 @@
             - Added JSON features
     - ## Which [[SQL]] standard in this course?
         - [[Bigdata Systems]]
-            - Mostly use [[SQL-99]] standard and this one will be used in this [[course]]
+            - Mostly use [[SQL-99]] standard and this one will be used in this course
             - Also use some [[SQL-2023]] features
 - [[DataBricks]] Free account
     - amrullah.zunzunia@gmail.com
