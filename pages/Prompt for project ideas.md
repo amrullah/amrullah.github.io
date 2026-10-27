@@ -10,7 +10,9 @@ public:: true
 - Golang, Spring Boot, FastAPI
 - gRPC
 - CQRS
-- relational db, cache, mongodb, kafka(open to others)
+- relational db, cache, mongodb, kafka(open to others), Cassandra?
 - rate limiting
--
+- Testcontainers
+- Docker
+- OpenTelemetry
 -

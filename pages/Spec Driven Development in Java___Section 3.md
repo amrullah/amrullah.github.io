@@ -172,6 +172,7 @@ tags::
           ```
     - Since you are going to use the same prompt template for each user story, it's better to create a `slash command` out of it
         - It's done by adding a markdown file `<command name>.md` in `.claude/commands` directory.
+            - > Create a skill (command is an old thing and a subset of skill) when you keep pasting the same instructions, checklist, or multi-step procedure into chat, or when a section of CLAUDE.md has grown into a procedure rather than a fact.
         - Almost fully formed `/discover` command:
           collapsed:: true
             - ```markdown

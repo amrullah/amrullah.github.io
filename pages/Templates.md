@@ -139,4 +139,13 @@ exclude-from-graph-view:: true
   <div> Second box (you can add more) </div> 
   </div>
   template:: Div Flex (Side by Side)
+- <div style="display: flex;"> 
+  <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: red;">Step 1</span> <br /> Color or bold is entirely optional</div> 
+  <div style="padding: 20px; font-size: 25px;"> → </div> 
+  <div style="border: 1px solid black; padding: 5px;"> <span style="">Step 2</span><br /> Some text here</div>
+  <div style="padding: 20px; font-size: 25px;"> → </div> 
+  <div style="border: 1px solid black; padding: 5px;"> <span style="">Step 3</span><br /> Some text here</div>
+  </div>
+  
+  template:: Div Flex (Simple Process Flow)
 -
