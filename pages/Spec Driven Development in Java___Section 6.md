@@ -24,23 +24,23 @@ public:: true
 - ## Generating Unit Tests
 - ### Classic TDD cycle
     - <div style="display: flex;"> 
-      <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: red;">Red</span> <br /> Write one failing Unit Test</div> 
+      <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <span style="font-weight: bold; color: red;">Red</span> <br /> Write one failing Unit Test</div> 
       <div style="padding: 20px; font-size: 25px;"> → </div> 
-      <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: green;">Green</span><br /> Minimum Code to make it pass</div>
+      <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <span style="font-weight: bold; color: green;">Green</span><br /> Minimum Code to make it pass</div>
       <div style="padding: 20px; font-size: 25px;"> → </div> 
-      <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: blue;">Refactor</span><br /> Clean up. Run all Tests</div>
+      <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <span style="font-weight: bold; color: blue;">Refactor</span><br /> Clean up. Run all Tests</div>
       </div>
 - ### TDD with AI
     - <div style="display: flex;"> 
-      <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: red;">Red</span> <br /> Write one failing unit test</div> 
+      <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <span style="font-weight: bold; color: red;">Red</span> <br /> Write one failing unit test</div> 
       <div style="padding: 20px; font-size: 25px;"> → </div> 
-      <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: green;">Green</span> <br /> Minimum code to make it pass</div> 
+      <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <span style="font-weight: bold; color: green;">Green</span> <br /> Minimum code to make it pass</div> 
       <div style="padding: 20px; font-size: 25px;"> → </div> 
-      <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: blue;">Refactor</span> <br /> Clean up. Run all tests</div> 
+      <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <span style="font-weight: bold; color: blue;">Refactor</span> <br /> Clean up. Run all tests</div> 
       <div style="padding: 20px; font-size: 25px;"> → </div> 
-      <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: #ff9f00;"> Challenge </span> <br /> What edge case could break this?</div> 
+      <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <span style="font-weight: bold; color: #ff9f00;"> Challenge </span> <br /> What edge case could break this?</div> 
       <div style="padding: 20px; font-size: 25px;"> → </div> 
-      <div style="border: 1px solid black; padding: 5px;"> <span style="font-weight: bold; color: purple;">Stop</span> <br /> Report and wait for instruction</div> 
+      <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <span style="font-weight: bold; color: purple;">Stop</span> <br /> Report and wait for instruction</div> 
       </div>
     - Why it matters:
         - One test per cycle

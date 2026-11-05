@@ -74,22 +74,22 @@ public:: true
       |[[Ollama]]|[[llama]], [[mistral]]|Local, free|
 - ## Model configuration strategies
     - some parameters you can provide to `init_chat_models` or `ChatOpenAI` etc:
-        - **temperature**
-            - is a decoding parameter that controls randomness in text generation: low values (≈0.0-0.4) make output focused and deterministic, while high values (≈0.7–1.0) make it more diverse and creative.
-              collapsed:: true
-                - **Low temperature (<1)** → sharper distribution → predictable, factual, consistent.
-                - **High temperature (>1)** → flatter distribution → varied, creative, sometimes incoherent.
-        - **max_tokens**
-          id:: 6a9be988-ed45-4c90-9de5-2b865b82cf87
-            - Maximum output length
-                - one of the key factors in determining LLM request cost
-        - **timeout**
-            - Request timeout
-        - **max_retries**
-            - Retry on failure
-                - handle transient errors
-        - **model_kwargs**
-            - provider specific parameters
+    - **temperature**
+        - is a decoding parameter that controls randomness in text generation: low values (≈0.0-0.4) make output focused and deterministic, while high values (≈0.7–1.0) make it more diverse and creative.
+          collapsed:: true
+            - **Low temperature (<1)** → sharper distribution → predictable, factual, consistent.
+            - **High temperature (>1)** → flatter distribution → varied, creative, sometimes incoherent.
+    - **max_tokens**
+      id:: 6a9be988-ed45-4c90-9de5-2b865b82cf87
+        - Maximum output length
+            - one of the key factors in determining LLM request cost
+    - **timeout**
+        - Request timeout
+    - **max_retries**
+        - Retry on failure
+            - handle transient errors
+    - **model_kwargs**
+        - provider specific parameters
     - Code Example:
       collapsed:: true
         - ```python
@@ -108,28 +108,60 @@ public:: true
         - Early termination
 - ## Cost optimization
     - Use a combination of these strategies
-    - ### Choose the right model
+    - **Choose the right model**
         - Example:
             - [[gpt-4o-mini]]: $0.15/1M [[tokens]]
               [[gpt-4o]]: $2.5/1M tokens [[tokens]]
               ^^17x cost difference^^
-    - ### Limit output tokens
+    - **Limit output tokens**
         - Use ((6a9be988-ed45-4c90-9de5-2b865b82cf87)) to control response length and cost
-    - ### Use caching
+    - **Use caching**
         - [[Cache]] identical requests with `InMemoryCache` / `sqlite` / [[Redis]] / Database
 - ## Message types
     - #### SystemMessage
         - A **SystemMessage** is used to **prime the AI model** with instructions that guide its overall behavior, tone, and persona before any user interaction occurs.
             - For example, you can instruct the AI to act as a senior Python developer, provide concise explanations, or adopt a specific style of communication.
         - System messages are processed with **higher priority than user input**, meaning the AI follows these instructions while responding to all subsequent messages
+        - Sets the behavior and persona
+            - Define who the AI is
     - #### HumanMessage
         - A **HumanMessage** represents the **user's input**—what the user types, speaks, or submits to the AI. It does not define how the AI should behave; instead, it tells the AI **what to respond to**.
         - Human messages are the primary input signal for the model and are essential for maintaining conversation context.
         - When combined with `AIMessage` objects, they allow the AI to remember previous interactions and provide coherent multi-turn responses
+        - User input
+            - What the user asks/says
     - #### AIMessage
         - An `AIMessage` is returned from a chat model as a response to a prompt.
         - This message represents the output of the model and consists of both the raw output as returned by the model and standardized fields (e.g., tool calls, usage metadata) added by the [[LangChain]] framework.
+    - #### ToolMessage
+        - Tool/Function results.
+        - Data from Tools/API's/functions
     - Also see: ((6a96dbf4-0709-4fc7-9548-265f8bb39cd4))
+- ## Few-shot prompting
+    - Teach AI by example, show the pattern
+- ## Prompt Composition
+    - Build Complex Prompts from reusable components
+- ## Output Parsers
+    - `StrOutputParser`
+    - `JsonOutputParser`
+    - `PydanticOutputParser` (most recommended)
+    - Structured Output (introduced in 2026)
+        - Old way had more steps:
+            - Define Pydantic Model
+              logseq.order-list-type:: number
+            - Create PydanticOutputParser
+              logseq.order-list-type:: number
+            - Get format instructions
+              logseq.order-list-type:: number
+            - Add to Prompt Template
+              logseq.order-list-type:: number
+            - Chain manually
+              logseq.order-list-type:: number
+        - New way
+          ```
+          model.with_structured_output(schema)
+          ```
+        -
 - ## Code Examples
     - **Testing Basic Integration with OpenAI and Anthropic**
         - Code: [Sample request to OpenAI and Anthropic to test integration, account s… · amrullah/ai_agents_with_langgraph@01315f2](https://github.com/amrullah/ai_agents_with_langgraph/commit/01315f20c419e7283f1dd120ff13af3d293ce7f6#diff-b10564ab7d2c520cdd0243874879fb0a782862c3c902ab535faabe57d5a505e1)
@@ -196,7 +228,7 @@ public:: true
               output_schema: {'title': 'StrOutputParserOutput', 'type': 'string'}
               ```
     - **Message Types**
-        - Code:
+        - Code: [message types | more details: https://amrullah.github.io/#/page/ai%20… · amrullah/ai_agents_with_langgraph@4d45f03](https://github.com/amrullah/ai_agents_with_langgraph/commit/4d45f0327d18e0b9992c7ba488bc6d54097102fd)
         - Output:
           collapsed:: true
             - ```
@@ -220,4 +252,56 @@ public:: true
               Follow-up response from the Pirate: Arrr, I still can’t see into the morrow, me hearty! 
               The winds of fate be too fickle for a pirate like meself to predict. 
               Best ye consult the weather gods or a landlubber’s forecast for what the skies hold for ye tomorrow. May the sun shine bright on yer sails!
+              ```
+    - **Message Templates**
+        - Code: [basic message templates · amrullah/ai_agents_with_langgraph@d58c9ab](https://github.com/amrullah/ai_agents_with_langgraph/commit/d58c9ab0804f8067bb1e1b9407ae38df2330e938)
+        - Output:
+          collapsed:: true
+            - ```
+              $ uv run src/ai_agents_with_langgraph/core_concepts.py 
+              simple message from template:  [HumanMessage(content="translate 'Hello World' to 'French'", additional_kwargs={}, response_metadata={})]
+              multi messages from template:  System: You are a helpful translator. After translating whatever the user asks to, tell a sentence according to your persona
+              Human: Translate "Hello World" to "French" 
+              ```
+    - **Few shot prompting**
+        - Code: [few shot prompting example · amrullah/ai_agents_with_langgraph@ae707cd](https://github.com/amrullah/ai_agents_with_langgraph/commit/ae707cd7d0c641998a2d6f2f89cd2f865b053da2)
+        - Output:
+          collapsed:: true
+            - ```
+              $ uv run src/ai_agents_with_langgraph/core_concepts.py 
+              The opposite of bright is dim.
+              ```
+    - **Pydantic Output Parser**
+        - Code: [Pydantic Output Parser example · amrullah/ai_agents_with_langgraph@0876697](https://github.com/amrullah/ai_agents_with_langgraph/commit/087669721035189ad67b90c0de84527916a22577)
+        - Output:
+          collapsed:: true
+            - ```
+              $ uv run src/ai_agents_with_langgraph/core_concepts.py 
+              <class '__main__.Person'> -> name='Maria' age=30 occupation='artist'
+              ```
+    - **Structured Output Parser**
+        - Code: [structured_output model demo · amrullah/ai_agents_with_langgraph@e18ee93](https://github.com/amrullah/ai_agents_with_langgraph/commit/e18ee93555251918ffb711d6acc70479a8f0e419)
+        - Output:
+          collapsed:: true
+            - ```
+              $ uv run src/ai_agents_with_langgraph/core_concepts.py 
+              Task Extractions:
+              
+              Input: John needs to finish the report by Friday - it's urgent
+                Task: finish the report
+                Priority: high
+                Deadline: Friday
+                Assignee: John
+              
+              Input: We should update the docs sometime next week
+                Task: Update the docs
+                Priority: medium
+                Deadline: next week
+                Assignee: None
+              
+              Input: Critical: Fix the login bug ASAP
+                Task: Fix the login bug
+                Priority: high
+                Deadline: None
+                Assignee: None
               ```
