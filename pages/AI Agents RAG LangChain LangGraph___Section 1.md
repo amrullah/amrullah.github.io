@@ -161,7 +161,41 @@ public:: true
           ```
           model.with_structured_output(schema)
           ```
-        -
+- ## Chain Composition Patterns
+    - **Sequential** (so far that's what we have been doing)
+        - <div style="display: flex;"> 
+          <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <br />Step 1</div> 
+          <div style="padding: 20px; font-size: 25px;"> → </div> 
+          <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <br />Step 2</div>
+          <div style="padding: 20px; font-size: 25px;"> → </div> 
+          <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <br />Step 3</div>
+          </div>
+    - **Parallel (RunnableParallel)**
+        - <div style="display: flex;"> 
+          <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"><br />input</div> 
+          <div style="padding: 20px; font-size: 25px;"> → </div> 
+          <div> <div  style="border: 1px solid var(--ls-primary-text-color); padding: 5px;">Chain 1</div> <div  style="border: 1px solid var(--ls-primary-text-color); padding: 5px;">Chain 2</div></div>
+          <div style="padding: 20px; font-size: 25px;"> → </div> 
+          <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"><br />Output</div>
+          </div>
+    - **Passthrough (keep original)**
+        - <div style="display: flex;"> 
+          <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <br />question</div> 
+          <div style="padding: 20px; ">passes through <span style="font-size: 25px;">→</span> </div> 
+          <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"> <br /> Context</div>
+          <div style="padding: 20px; ">from retriever <span style="font-size: 25px;">→</span> </div> 
+          <div style="border: 1px solid var(--ls-primary-text-color); padding: 5px;"><br /> prompt | model</div>
+          </div>
+        - Useful pattern in [[RAG]]
+- ## Debugging
+- ### Verbose Logging
+    - Quick and simple
+    - set `debug=True` to log all chain steps to console
+- ### Callbacks
+    - Attach Callback handlers to intercept and log each step
+    - a bit more flexible than verbose logging
+- ### LangSmith
+    - Visual trace viewer, cost tracking, evaluation tools.
 - ## Code Examples
     - **Testing Basic Integration with OpenAI and Anthropic**
         - Code: [Sample request to OpenAI and Anthropic to test integration, account s… · amrullah/ai_agents_with_langgraph@01315f2](https://github.com/amrullah/ai_agents_with_langgraph/commit/01315f20c419e7283f1dd120ff13af3d293ce7f6#diff-b10564ab7d2c520cdd0243874879fb0a782862c3c902ab535faabe57d5a505e1)
@@ -305,3 +339,60 @@ public:: true
                 Deadline: None
                 Assignee: None
               ```
+    - **Parallel Chain**
+        - Code: [parallel chain demo · amrullah/ai_agents_with_langgraph@da2b270](https://github.com/amrullah/ai_agents_with_langgraph/commit/da2b27085f14e1ea5c56435d2fb7a6513db24682)
+        - Output:
+          collapsed:: true
+            - ```
+              uv run src/ai_agents_with_langgraph/core_concepts.py 
+              {'summary': 'The latest ChatGPT model features improved reasoning capabilities for tackling complex tasks and supports real-time 
+              interactions across text, audio, and images for a more dynamic experience. Enhanced personalization allows it to adapt to individual 
+              communication styles, while faster responses with richer context contribute to more natural and engaging conversations.', 
+              'keywords': 'ChatGPT, reasoning, interaction, personalization, dialogue', 
+              'sentiment': "The sentiment of the text is positive. It highlights the enhancements and improvements of the latest ChatGPT model, 
+              emphasizing its advanced capabilities, dynamic interactions, personalization, and overall effectiveness in communication. 
+              The language used conveys enthusiasm and optimism about the model's features and performance."}
+              ```
+    - **Passthrough Chain**
+        - Code: [passthrough chain demo · amrullah/ai_agents_with_langgraph@3886353](https://github.com/amrullah/ai_agents_with_langgraph/commit/38863539b433a5b857b409f6659e2dbecd1d3951)
+        - Output:
+          collapsed:: true
+            - ```
+              $ uv run src/ai_agents_with_langgraph/core_concepts.py 
+              Answer: LangChain was created by Harrison Chase in 2022.
+              ```
+    - **Chain branching**
+        - Code: [chain branching demo · amrullah/ai_agents_with_langgraph@fb3aee3](https://github.com/amrullah/ai_agents_with_langgraph/commit/fb3aee37117fc40fbb1e0ca440a1bec4bc79e919)
+        - Output:
+          collapsed:: true
+            - ```
+              $ uv run src/ai_agents_with_langgraph/core_concepts.py 
+              Code question!
+              Q: How do I write a for loop in Python?
+              A: Certainly! In Python, a `for` loop is used to iterate over a sequence (like a list, tuple, or string...
+              
+              Not a code question
+              Q: What's the weather like today?
+              A: I'm sorry, but I can't provide real-time weather updates. I recommend checking a reliable weather we...
+              ```
+    - **Chain debugging**
+        - Code: [debugging chains · amrullah/ai_agents_with_langgraph@bd59d4a](https://github.com/amrullah/ai_agents_with_langgraph/commit/bd59d4a305c2331571dc392ae1dd15a4ff816b16)
+        - Output:
+          collapsed:: true
+            - ```
+              $ uv run src/ai_agents_with_langgraph/core_concepts.py 
+              **Method 1**
+              Chain input schema: {'properties': {'name': {'title': 'Name', 'type': 'string'}}, 'required': ['name'], 'title': 'PromptInput', 'type': 'object'}
+              Chain output schema: {'title': 'StrOutputParserOutput', 'type': 'string'}
+              
+              **Method 2**
+              Greeting: Hello, Alice! How are you today?
+              
+              **Method 3**
+              
+              Debug chain execution:
+              [after_prompt] ChatPromptValue: messages=[HumanMessage(content='Say hello to Debug', additional_kwargs={}, response_metadata={})]
+              [after_model] AIMessage: content='Hello, Debug! How can I assist you today?' additional_kwargs={'refusal': None} response_met
+              Greeting: Hello, Debug! How can I assist you today?
+              ```
+-
