@@ -12,8 +12,18 @@
 
 }
 
-
 .l.flex.drag-region {
     /* background-color: #161218; */
     background-color: #18131a;
+}
+
+@media (max-width: 768px) {
+    .cp__sidebar-main-content > div.mx-auto.pb-24 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    div.foldable-title a.block-control {
+        margin-left: 0px !important;
+    }
 }
