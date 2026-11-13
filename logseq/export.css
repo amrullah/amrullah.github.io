@@ -4,8 +4,12 @@
 /* @import url('https://cdn.jsdelivr.net/gh/nikdoof/base16-logseq@main/css/base16-equilibrium-dark.css'); */
 /* @import url('https://cdn.jsdelivr.net/gh/nikdoof/base16-logseq@main/css/base16-atelier-cave.css'); */
 
+:root {
+    --ls-main-content-max-width: 1120px;
+}
 #main-content-container{
     padding: 0px !important;
+
 }
 
 
