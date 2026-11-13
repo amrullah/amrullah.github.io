@@ -26,4 +26,9 @@
     div.foldable-title a.block-control {
         margin-left: 0px !important;
     }
+    
+    /*exclude Linked References expand arrows from the above setting*/
+    div.references-blocks-item div.foldable-title a.block-control {
+        margin-left: -30px !important;
+    }
 }
