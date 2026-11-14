@@ -137,7 +137,7 @@ public:: true
               #+END_TIP
         - **Quality:** Research suggests that the model performs worse on reasoning tasks when the context is very long. This is called [[lost-in-the-middle]]
             - #+BEGIN_TIP
-              Even if your content technically fits in the window, you may get better results by summarizing or chunking it, so the model reasons over a smaller, more focused set of information.
+              Even if your content technically fits in the window, you may get better results by summarizing or [[chunking]] it, so the model reasons over a smaller, more focused set of information.
               #+END_TIP
     - ## Strategies for maintaining Context Limits
         - Context limits is a given. So the practical question to ask is:
@@ -190,7 +190,7 @@ public:: true
                 - {{renderer :drawio, 1786725162084.svg}}
             - This keeps context bounded while giving the model access to a much larger knowledge base.
                 - Instead of hoping the model finds the right information in in a sea of tokens, you use similarity search to pre-select the relevant content and pass only that to the model.
-            - The retrieval step is what makes [[RAG]] powerful. Good RAG systems invest heavily in retrieval accuracy, embedding quality, chunking strategy and re-ranking, before tuning the generation side.
+            - The retrieval step is what makes [[RAG]] powerful. Good RAG systems invest heavily in retrieval accuracy, embedding quality, [[chunking]] strategy and re-ranking, before tuning the generation side.
     - ## Measuring Context Usage
         - When you call an LLM API, the response includes token usage. Track this to understand how close you are to the limit and forecast costs.
         - Code Sample:
