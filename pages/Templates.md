@@ -155,4 +155,6 @@ exclude-from-graph-view:: true
   </div>
   
   template:: Div Flex (Vertical Process flow)
+- \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
+  template:: LaTeX 2x2 matrix
 -
